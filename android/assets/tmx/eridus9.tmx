@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="35" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="205" name="Collision" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/collision.png" width="50" height="50"/>
+ </tileset>
+ <layer name="L1 Back" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQ6AUAgDUPJH739gFycTtQhtmnyGruUFBlZErGKOK9WeDsM9Lg6G6a0XcXSZsrNYLqYj61FYUI/K8uVROpDdOFncPGPxdThZdnSM5Z9nd8uTZyxedxoL7nD7A0oP4lCYsg6GqWLosnQYOjzdjoqHZUE9zPmqnN/krUgkEwAA
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQEAAACCIP+vbkhAAQAAAMC3AV9aZlgkEwAA
+  </data>
+ </layer>
+ <objectgroup name="Events" width="35" height="35">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="816" y="0" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="35" height="35">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+  <object name="Enemy" type="Eridus-1" x="768" y="720" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup name="Liquid" width="35" height="35">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="35" height="35">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+ <layer name="Collision" width="35" height="35" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VwQrAMAgD0H7a/h/6T7vsNFirMwmBKuSqDz04x7hmMeOpah+E4V0uDoZp1TfiQJmys1gupiPrUViiHpVl51E6dhanvTh62uLrcLKc6GjLP8/pli9PW7zu1Ja4w+0PKD0Rh8KUdTBMFQPKgjAgPGhHxcOyRD3M+arclJa5FSQTAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,20 @@
+story;1;town;100;0;null;goto;town;Finish the Tutorial.
+story;2;town;100;5;null;speakto;1;Speak to the archangel.
+story;3;special;0;5;null;goto;special1;Enter the Garden of Eden.
+story;4;special;0;5;null;goto;town;Learn more about the Heaven.
+story;5;eridus;100;5;null;goto;eridus1;Enter Eridus' Lair.
+story;6;eridus;0;5;null;enterarea;eridus4;Locate Eridus the earth god in his lair.
+story;7;eridus;0;5;null;goto;eridus5;Find a way to pass the gate.
+story;8;eridus;0;5;null;kill;Eridus;1
+story;9;artos;0;5;null;goto;artos1;Enter Artos' Lair.
+story;10;artos;0;5;null;kill;Artos;1
+story;11;fugis;0;5;null;goto;fugis1;Enter Fugis' Lair.
+story;12;fugis;0;5;null;kill;Fugis;1
+story;13;wistos;0;5;null;goto;wistos1;Enter Wistos' Lair.
+story;14;wistos;0;5;null;kill;Wistos;1
+story;15;balis;0;5;null;goto;balis1;Enter Balis' Lair.
+story;16;balis;0;5;kill;Balis;1
+story;17;laxos;0;5;null;goto;laxos1;Enter Laxos' Lair.
+story;18;laxos;0;5;null;kill;Laxos;1
+story;19;hotrax;0;5;null;goto;hotrax1;Enter Hotrax' Lair.
+story;20;hotrax;0;5;null;kill;Hotrax;1

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="arena"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="L1 Back" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SOwoAIAwE0RBQ739jG1uF+FuRKaZJkQchbmYuKl0OFxcX92e3DDrtRuZRN7dW3N6OF13VnV90Ff+8I1xcXNxZV1EF0cnU2RAOAAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92WUQoAIQhEPYMXssvuPZc+hIhcmNS2ep81OGUqEZ0FB8V5wH3Lt+pk0qPFimGte7UrQc9VMg4xwa75RGCK65kRoxqPzhvSR5kwzeXzKx/Z7xNBdh+s6LNMD7Q+T3hz5YYZ2LJilkR5CNn550aDxuxjIHjrVsAYt9VfZZc7/TWDPL7aW8ifW7W9b68VY93LKbO+8gLonDB8EA4AAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="30" height="30">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="MonsterSpawn" type="static" x="96" y="96" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="480" y="96" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="960" y="96" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="1296" y="96" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="1296" y="432" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="1296" y="912" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="1296" y="1296" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="1008" y="1296" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="480" y="1296" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="96" y="1296" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="96" y="912" width="48" height="48"/>
+  <object name="MonsterSpawn" type="static" x="96" y="432" width="48" height="48"/>
+  <object name="BossSpawn" type="static" x="720" y="720" width="48" height="48"/>
+  <object name="Spawn" type="static" x="720" y="240" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="30" height="30">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="30" height="30">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+  <object x="0" y="0" width="48" height="1440"/>
+  <object x="48" y="1392" width="1392" height="48"/>
+  <object x="1392" y="0" width="48" height="1392"/>
+  <object x="48" y="0" width="1344" height="48"/>
+  <object x="672" y="48" width="48" height="96"/>
+  <object x="384" y="384" width="96" height="48"/>
+  <object x="48" y="528" width="144" height="48"/>
+  <object x="1056" y="528" width="96" height="48"/>
+  <object x="1296" y="720" width="96" height="48"/>
+  <object x="1056" y="960" width="48" height="96"/>
+  <object x="816" y="1200" width="48" height="192"/>
+  <object x="432" y="1008" width="48" height="96"/>
+ </objectgroup>
+ <objectgroup name="Liquid" width="30" height="30">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+  <object name="Water" x="576" y="576" width="336" height="48"/>
+  <object name="Water" x="576" y="624" width="48" height="240"/>
+  <object name="Water" x="864" y="624" width="48" height="240"/>
+  <object name="Water" x="576" y="864" width="336" height="48"/>
+  <object name="Lava" x="288" y="672" width="96" height="96"/>
+  <object name="Lava" x="1104" y="672" width="96" height="96"/>
+ </objectgroup>
+</map>

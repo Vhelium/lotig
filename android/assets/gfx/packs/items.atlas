@@ -1,0 +1,780 @@
+
+items.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mana Potion M
+  rotate: false
+  xy: 1, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Gem
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+HP Potion M
+  rotate: false
+  xy: 89, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Glyph
+  rotate: false
+  xy: 133, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Mana Potion XL
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Gold
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+HP Potion L
+  rotate: false
+  xy: 265, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+HP Potion S
+  rotate: false
+  xy: 309, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Attribute Potion
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Mana Potion L
+  rotate: false
+  xy: 397, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Mana Potion S
+  rotate: false
+  xy: 441, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+HP Potion XL
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Bag
+  rotate: false
+  xy: 529, 9
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+
+items2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+equip/Helmet_legendary
+  rotate: false
+  xy: 1, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Helmet_rare
+  rotate: false
+  xy: 1, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shoulder_rare
+  rotate: false
+  xy: 1, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shoulder_legendary
+  rotate: false
+  xy: 1, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shoulder_common
+  rotate: false
+  xy: 1, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bracer_uncommon
+  rotate: false
+  xy: 45, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Wand_uncommon
+  rotate: false
+  xy: 45, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Charm_rare
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Insignia_rare
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Scepter_rare
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Tome_rare
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Scepter_legendary
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Amulet_rare
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Charm_legendary
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Tome_legendary
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Insignia_legendary
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Amulet_legendary
+  rotate: false
+  xy: 45, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Trophy_common
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Focus_rare
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shield_common
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Trophy_rare
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Focus_common
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Trophy_legendary
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shield_rare
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shield_legendary
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Focus_uncommon
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Focus_legendary
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Trophy_uncommon
+  rotate: false
+  xy: 89, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bow_legendary
+  rotate: false
+  xy: 89, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bow_common
+  rotate: false
+  xy: 89, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bow_rare
+  rotate: false
+  xy: 89, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bow_uncommon
+  rotate: false
+  xy: 89, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_common
+  rotate: false
+  xy: 133, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Boots_common
+  rotate: false
+  xy: 133, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring_legendary
+  rotate: false
+  xy: 177, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring_common
+  rotate: false
+  xy: 177, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring_rare
+  rotate: false
+  xy: 177, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Scepter_common
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Amulet_common
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Charm_common
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Insignia_common
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Tome_common
+  rotate: false
+  xy: 177, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Rod_uncommon
+  rotate: false
+  xy: 221, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Chest_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Weapon_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Amulet_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring1_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shoulder_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/OffHand_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Pants_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Glove_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring2_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Boots_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bracer_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Helmet_empty
+  rotate: false
+  xy: 221, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Chest_common
+  rotate: false
+  xy: 265, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Claymore_uncommon
+  rotate: false
+  xy: 265, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_uncommon
+  rotate: false
+  xy: 265, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Boots_rare
+  rotate: false
+  xy: 309, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Boots_legendary
+  rotate: false
+  xy: 309, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Rod_legendary
+  rotate: false
+  xy: 309, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Rod_rare
+  rotate: false
+  xy: 309, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Rod_common
+  rotate: false
+  xy: 309, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Chest_legendary
+  rotate: false
+  xy: 309, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Chest_rare
+  rotate: false
+  xy: 309, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Glove_uncommon
+  rotate: false
+  xy: 353, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Wand_rare
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Wand_legendary
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bracer_legendary
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bracer_common
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Wand_common
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Bracer_rare
+  rotate: false
+  xy: 353, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shield_uncommon
+  rotate: false
+  xy: 397, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Shoulder_uncommon
+  rotate: false
+  xy: 397, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Pants_legendary
+  rotate: false
+  xy: 441, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Pants_rare
+  rotate: false
+  xy: 441, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Pants_common
+  rotate: false
+  xy: 441, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Ring_uncommon
+  rotate: false
+  xy: 441, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Glove_legendary
+  rotate: false
+  xy: 485, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Glove_common
+  rotate: false
+  xy: 485, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Glove_rare
+  rotate: false
+  xy: 485, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Claymore_legendary
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Claymore_rare
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_rare
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_legendary
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Helmet_uncommon
+  rotate: false
+  xy: 529, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Scepter_uncommon
+  rotate: false
+  xy: 529, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Amulet_uncommon
+  rotate: false
+  xy: 529, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Charm_uncommon
+  rotate: false
+  xy: 529, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Insignia_uncommon
+  rotate: false
+  xy: 529, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Tome_uncommon
+  rotate: false
+  xy: 529, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Boots_uncommon
+  rotate: false
+  xy: 573, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Claymore_common
+  rotate: false
+  xy: 573, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Attribute Potion
+  rotate: false
+  xy: 617, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Pants_uncommon
+  rotate: false
+  xy: 617, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Chest_uncommon
+  rotate: false
+  xy: 661, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Helmet_common
+  rotate: false
+  xy: 661, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

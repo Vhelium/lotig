@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="25" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="100"/>
+ </tileset>
+ <tileset firstgid="9" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="L1 Back" width="30" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TQQ7AIAgEUf7/56Y3QizCrrFp6oHUWHWcJTYRaad+Vx2sFcx7rGZeB3P2H8Ou7vV3QNjRHn/+yBlhZ9eOcme8s/eLPJEzZ2uecmbyrvRDTbG9Zt8dkmXVNfpWnBFXn3PWuZPcTF9neaPcKtM7M1yUvdvXOu/29Xm/4fwl38OtcS9BEyy7uAsAAA==
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="30" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2SSw6AIAxE3XNdb+AR4MC6ISGT0nZaiAudhER+85ja4/j1RV3POMnRkszq9CjBexYTfa15lI3MMnzPlGUzZ7V3sH4VPEdvD0c6y3CzGrlW5kwfSjyvN2b11Fhbxz2JuyLrTJ0vMbCf8I61pvGQ02C+S1q9tX8rzRkOaszM5GV7TNqPcFeoZ2a5K+qucRl/VpG8XmnvnnEjPc3UZ2fet7hWnW+pXrOauAsAAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="30" height="25">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="720" y="1104" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="30" height="25">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="30" height="25">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+</map>

@@ -1,0 +1,472 @@
+
+gui.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backgroundGemStore
+  rotate: false
+  xy: 1, 541
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+right
+  rotate: false
+  xy: 803, 802
+  size: 213, 219
+  orig: 213, 219
+  offset: 0, 0
+  index: -1
+fade
+  rotate: false
+  xy: 1018, 1014
+  size: 1, 7
+  orig: 1, 7
+  offset: 0, 0
+  index: -1
+topRight
+  rotate: false
+  xy: 803, 752
+  size: 213, 48
+  orig: 213, 48
+  offset: 0, 0
+  index: -1
+backgroundConnectionInfo
+  rotate: false
+  xy: 803, 650
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+status
+  rotate: false
+  xy: 1005, 483
+  size: 17, 267
+  orig: 17, 267
+  offset: 0, 0
+  index: -1
+cmdDeath
+  rotate: false
+  xy: 803, 598
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 1, 1
+  size: 587, 480
+  orig: 587, 480
+  offset: 0, 0
+  index: -1
+backgroundGlyphMaster
+  rotate: false
+  xy: 590, 1
+  size: 374, 480
+  orig: 374, 480
+  offset: 0, 0
+  index: -1
+cmdCharMenuItem
+  rotate: false
+  xy: 803, 552
+  size: 196, 44
+  orig: 196, 44
+  offset: 0, 0
+  index: -1
+onscreen_control_knob
+  rotate: false
+  xy: 803, 486
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+cmdConnection
+  rotate: false
+  xy: 966, 389
+  size: 52, 92
+  orig: 52, 92
+  offset: 0, 0
+  index: -1
+cmdSettings
+  rotate: false
+  xy: 966, 295
+  size: 52, 92
+  orig: 52, 92
+  offset: 0, 0
+  index: -1
+cmdCharMenu
+  rotate: false
+  xy: 966, 201
+  size: 52, 92
+  orig: 52, 92
+  offset: 0, 0
+  index: -1
+cmdTown
+  rotate: false
+  xy: 966, 107
+  size: 52, 92
+  orig: 52, 92
+  offset: 0, 0
+  index: -1
+cmdItems
+  rotate: false
+  xy: 1, 489
+  size: 89, 50
+  orig: 89, 50
+  offset: 0, 0
+  index: -1
+cmdReward
+  rotate: false
+  xy: 92, 489
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+cmdItem
+  rotate: false
+  xy: 144, 489
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+cmdItemHighlighted
+  rotate: false
+  xy: 196, 489
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+fame
+  rotate: false
+  xy: 248, 489
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+questLogButton
+  rotate: false
+  xy: 966, 65
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+minimapButton
+  rotate: false
+  xy: 966, 23
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+dialogue_triangle
+  rotate: false
+  xy: 966, 3
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+tooltip_triangle
+  rotate: false
+  xy: 966, 3
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+pvpScores
+  rotate: false
+  xy: 300, 491
+  size: 374, 48
+  orig: 374, 48
+  offset: 0, 0
+  index: -1
+backgroundPost
+  rotate: false
+  xy: 676, 517
+  size: 120, 22
+  orig: 120, 22
+  offset: 0, 0
+  index: -1
+dialogue_frame
+  rotate: false
+  xy: 676, 487
+  size: 100, 28
+  orig: 100, 28
+  offset: 0, 0
+  index: -1
+tooltip_frame
+  rotate: false
+  xy: 676, 487
+  size: 100, 28
+  orig: 100, 28
+  offset: 0, 0
+  index: -1
+cmdBuy
+  rotate: false
+  xy: 869, 502
+  size: 84, 48
+  orig: 84, 48
+  offset: 0, 0
+  index: -1
+cmdSell
+  rotate: false
+  xy: 869, 502
+  size: 84, 48
+  orig: 84, 48
+  offset: 0, 0
+  index: -1
+spellOOM
+  rotate: false
+  xy: 955, 505
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+
+gui2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spellIcons
+  rotate: false
+  xy: 1, 752
+  size: 540, 270
+  orig: 540, 270
+  offset: 0, 0
+  index: -1
+backgroundSettings
+  rotate: false
+  xy: 1, 450
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+backgroundSpells
+  rotate: false
+  xy: 543, 807
+  size: 372, 215
+  orig: 372, 215
+  offset: 0, 0
+  index: -1
+backgroundList
+  rotate: false
+  xy: 1, 122
+  size: 173, 326
+  orig: 173, 326
+  offset: 0, 0
+  index: -1
+questReward
+  rotate: false
+  xy: 543, 771
+  size: 374, 34
+  orig: 374, 34
+  offset: 0, 0
+  index: -1
+backgroundItemInfo
+  rotate: false
+  xy: 303, 590
+  size: 183, 160
+  orig: 183, 160
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 303, 420
+  size: 170, 168
+  orig: 170, 168
+  offset: 0, 0
+  index: -1
+backgroundInvInfo
+  rotate: false
+  xy: 1, 13
+  size: 173, 107
+  orig: 173, 107
+  offset: 0, 0
+  index: -1
+spellPreparedAnimation
+  rotate: false
+  xy: 543, 679
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+gemsBuy2
+  rotate: false
+  xy: 725, 683
+  size: 160, 86
+  orig: 160, 86
+  offset: 0, 0
+  index: -1
+gemsBuy1
+  rotate: false
+  xy: 488, 591
+  size: 160, 86
+  orig: 160, 86
+  offset: 0, 0
+  index: -1
+bossHudHp
+  rotate: false
+  xy: 1, 1
+  size: 170, 10
+  orig: 170, 10
+  offset: 0, 0
+  index: -1
+backgroundOSI
+  rotate: false
+  xy: 725, 651
+  size: 160, 30
+  orig: 160, 30
+  offset: 0, 0
+  index: -1
+backgroundListItem
+  rotate: false
+  xy: 488, 551
+  size: 173, 38
+  orig: 173, 38
+  offset: 0, 0
+  index: -1
+onscreen_control_base
+  rotate: false
+  xy: 475, 421
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gems
+  rotate: false
+  xy: 605, 421
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+cmdEnchanting
+  rotate: false
+  xy: 475, 381
+  size: 178, 38
+  orig: 178, 38
+  offset: 0, 0
+  index: -1
+gemsBuy3
+  rotate: false
+  xy: 735, 563
+  size: 160, 86
+  orig: 160, 86
+  offset: 0, 0
+  index: -1
+gemsBuy4
+  rotate: false
+  xy: 735, 475
+  size: 160, 86
+  orig: 160, 86
+  offset: 0, 0
+  index: -1
+backgroundSorting
+  rotate: false
+  xy: 735, 432
+  size: 173, 41
+  orig: 173, 41
+  offset: 0, 0
+  index: -1
+cmdMenuOption
+  rotate: false
+  xy: 735, 396
+  size: 177, 34
+  orig: 177, 34
+  offset: 0, 0
+  index: -1
+cmdPort
+  rotate: false
+  xy: 917, 984
+  size: 100, 38
+  orig: 100, 38
+  offset: 0, 0
+  index: -1
+cmdLoot
+  rotate: false
+  xy: 176, 410
+  size: 84, 38
+  orig: 84, 38
+  offset: 0, 0
+  index: -1
+bossHud
+  rotate: false
+  xy: 262, 408
+  size: 170, 10
+  orig: 170, 10
+  offset: 0, 0
+  index: -1
+barHonor
+  rotate: false
+  xy: 650, 591
+  size: 11, 86
+  orig: 11, 86
+  offset: 0, 0
+  index: -1
+cmdCatLeft
+  rotate: false
+  xy: 663, 636
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+cmdTippNext
+  rotate: false
+  xy: 917, 942
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+barMana
+  rotate: false
+  xy: 887, 684
+  size: 11, 85
+  orig: 11, 85
+  offset: 0, 0
+  index: -1
+barHp
+  rotate: false
+  xy: 176, 323
+  size: 11, 85
+  orig: 11, 85
+  offset: 0, 0
+  index: -1
+cmdSpellHighlighted
+  rotate: false
+  xy: 488, 705
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+cmdSpell
+  rotate: false
+  xy: 663, 589
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+cmdSpellHotkey
+  rotate: false
+  xy: 917, 895
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+spellCooldown
+  rotate: false
+  xy: 189, 363
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+spellUATC
+  rotate: false
+  xy: 917, 848
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+potionEmpty
+  rotate: false
+  xy: 655, 377
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

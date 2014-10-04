@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="56" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="dungeon"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="205" name="Collision" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/collision.png" width="50" height="50"/>
+ </tileset>
+ <layer name="L1 Back" width="80" height="56">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aMQ6DMBAEQIuS/P+/aRPiA4Ix4eIpVlDdSgMGITOVUiZpynxxrurs3cOPH7+8Pfz48cvbw48fv7w9/Pjxy9vDjx+/vD38+PHL28OPH7+8PbU9uN57fL07e/f8+t4TEblLvD/Om3/lNfuHHn78+OXt4ceP3717Hvx2+bwea+f8Pt2WVjVTfrFd5Ln0ixxH91uzqmUu746j+kWO/Pr6Ldcxv+N2o/u12o3sd/R5x6/Nkl/dbc1xLtZvZBd5bn13jO4Xhd/xnr1rlt+24zfz+bXN58ePX86eM/5nGD1PwWfTYwBGAAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="80" height="56">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAeBg2QTg6AEYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="80" height="56">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="0" y="1200" width="96" height="96"/>
+  <object name="Stream" type="LevelObject" x="192" y="1200" width="3456" height="96">
+   <properties>
+    <property name="asset" value="vortex"/>
+    <property name="direction" value="right"/>
+    <property name="strengthFactor" value="0.12"/>
+   </properties>
+  </object>
+  <object name="NextLevel" type="LevelObject" x="3792" y="1152" width="48" height="192">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies" width="80" height="56">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+  <object name="Enemy" type="Flame Beast-1" x="768" y="528" width="24" height="24"/>
+  <object name="Enemy" type="Flame Beast-1" x="912" y="528" width="24" height="24"/>
+  <object name="Enemy" type="Fire Elemental-1" x="720" y="2064" width="24" height="24"/>
+  <object name="Enemy" type="Fire Elemental-1" x="912" y="1968" width="24" height="24"/>
+  <object name="Enemy" type="Fire Wizard-1" x="2016" y="384" width="24" height="24"/>
+  <object name="Enemy" type="Fire Wizard-1" x="2208" y="384" width="24" height="24"/>
+  <object name="Enemy" type="Fire Wizard-1" x="2124" y="1980" width="24" height="24"/>
+  <object name="Enemy" type="Fire Golem-1" x="1968" y="1968" width="24" height="24"/>
+  <object name="Enemy" type="Fire Golem-1" x="2124" y="1980" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="80" height="56">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Liquid" width="80" height="56">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+ </objectgroup>
+ <layer name="Collision" width="80" height="56" opacity="0.26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZsQ2AQAwEwe+/N3oi/3SxE+akT8fSJgQ855zHS297Wzen7+jXff2ar1/z9Wu+fs3Xr/n6NV+/5uvXfP2ar1/z9Wu+fs3Xr/n6NV+/5uvXfP2ar1/z9Wu+fs2/G07/45u+OX3ntszM/jrfj+/8rW3dnL6jX/f1a75+zdev+fo1X7/m69d8/ZqvX/P1a75+zdev+fo1X7/m69d8/ZqvX/P1a75+zdev+fo1X7/m69d8/ZqvX/O99l53QjIkAEYAAA==
+  </data>
+ </layer>
+</map>

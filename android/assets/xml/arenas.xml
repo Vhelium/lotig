@@ -1,0 +1,119 @@
+<arenas>
+    <arena name="pvmArena1">
+        <round nr="1">
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+        </round>
+        <round nr="2">
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+        </round>
+        <round nr="3">
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+        </round>
+        <round nr="4">
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+        </round>
+        <round nr="5">
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+        </round>
+        <round nr="6">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+        </round>
+        <round nr="7">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-0</entity>
+            <entity>Stone Golem-0</entity>
+        </round>
+        <round nr="8">
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+        <round nr="9">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+        <round nr="10">
+            <entity>Stone Golem-4</entity>
+        </round>
+        <round nr="11">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+        <round nr="12">
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+        <round nr="13">
+            <entity>Stone Golem-4</entity>
+            <entity>Stone Golem-4</entity>
+        </round>
+        <round nr="14">
+            <entity>Stone Golem-3</entity>
+            <entity>Stone Golem-3</entity>
+            <entity>Stone Golem-3</entity>
+        </round>
+        <round nr="15">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-1</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+        <round nr="16">
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-3</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-2</entity>
+            <entity>Stone Golem-3</entity>
+            <entity>Stone Golem-2</entity>
+        </round>
+    </arena>
+</arenas>

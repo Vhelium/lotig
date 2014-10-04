@@ -1,0 +1,118 @@
+<infos>
+    <info id="1">
+        <text>This is your health bar</text>
+        <textX>122</textX>
+        <textY>40</textY>
+        <asset>arrow1</asset>
+        <assetX>25</assetX>
+        <assetY>35</assetY>
+    </info>
+    <info id="2">
+        <text>This is your mana bar</text>
+        <textX>122</textX>
+        <textY>130</textY>
+        <asset>arrow1</asset>
+        <assetX>25</assetX>
+        <assetY>125</assetY>
+    </info>
+    <info id="3">
+        <text>Open the character menu here</text>
+        <textX>550</textX>
+        <textY>140</textY>
+        <asset>arrow2</asset>
+        <assetX>660</assetX>
+        <assetY>55</assetY>
+        <linked>7;8;9</linked>
+    </info>
+    <info id="4">
+        <text>Open the character menu here</text>
+        <textX>550</textX>
+        <textY>140</textY>
+        <asset>arrow2</asset>
+        <assetX>660</assetX>
+        <assetY>55</assetY>
+        <linked>10;11;12</linked>
+    </info>
+    <info id="5">
+        <text>Connection info is found here</text>
+        <textX>555</textX>
+        <textY>140</textY>
+        <asset>arrow2</asset>
+        <assetX>711</assetX>
+        <assetY>55</assetY>
+    </info>
+    <info id="6">
+        <text>Settings are found here</text>
+        <textX>635</textX>
+        <textY>140</textY>
+        <asset>arrow2</asset>
+        <assetX>762</assetX>
+        <assetY>55</assetY>
+    </info>
+    <info id="7">
+        <text>Open Inventory</text>
+        <textX>270</textX>
+        <textY>150</textY>
+        <asset>arrow1</asset>
+        <assetX>178</assetX>
+        <assetY>148</assetY>
+    </info>
+    <info id="8">
+        <text>Select a potion</text>
+        <textX>222</textX>
+        <textY>310</textY>
+        <asset>arrow2</asset>
+        <assetX>255</assetX>
+        <assetY>224</assetY>
+    </info>
+    <info id="9">
+        <text>Assign to a hotkey</text>
+        <textX>302</textX>
+        <textY>358</textY>
+        <asset>arrow1</asset>
+        <assetX>211</assetX>
+        <assetY>356</assetY>
+        <linked>7;8;9</linked>
+    </info>
+    <info id="10">
+        <text>Open spells menu</text>
+        <textX>250</textX>
+        <textY>192</textY>
+        <asset>arrow1</asset>
+        <assetX>157</assetX>
+        <assetY>190</assetY>
+    </info>
+    <info id="11">
+        <text>Select spell</text>
+        <textX>379</textX>
+        <textY>24</textY>
+        <asset>arrow1</asset>
+        <assetX>287</assetX>
+        <assetY>22</assetY>
+    </info>
+    <info id="12">
+        <text>Assign to a hotkey</text>
+        <textX>588</textX>
+        <textY>168</textY>
+        <asset>arrow3</asset>
+        <assetX>602</assetX>
+        <assetY>190</assetY>
+        <linked>7;8;9</linked>
+    </info>
+    <info id="13">
+        <text>Close the menu</text>
+        <textX>610</textX>
+        <textY>140</textY>
+        <asset>arrow2</asset>
+        <assetX>660</assetX>
+        <assetY>55</assetY>
+    </info>
+    <info id="14">
+        <text>This is your fame bar</text>
+        <textX>122</textX>
+        <textY>220</textY>
+        <asset>arrow1</asset>
+        <assetX>25</assetX>
+        <assetY>125</assetY>
+    </info>
+</infos>

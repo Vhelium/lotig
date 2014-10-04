@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="32" height="25" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="boss"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="L1 Back" width="32" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NlYGBghWJGNMxKJ4xuL7UxNrvoaT8hdw2k3aP2j0z7B4MbRu0ftX/U/oFzw2CyfyDDfyDsHun2D5a4HwzhT6wbSMmvhNTSq21PCAMAvv6Da4AMAAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="32" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBRQAwgOtANGARzwU9GswRCv1PTPKCANjIb9KBgF9AWDocwdBbQHAETeT3WADAAA
+  </data>
+ </layer>
+ <objectgroup name="Events" width="32" height="25">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="240" y="24" width="48" height="24"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="32" height="25">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+  <object name="Enemy" type="Sigos-0" x="1152" y="768" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="32" height="25">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+  <object x="0" y="0" width="48" height="1200"/>
+  <object x="48" y="0" width="96" height="48"/>
+  <object x="48" y="384" width="48" height="480"/>
+  <object x="96" y="720" width="48" height="96"/>
+  <object x="48" y="1104" width="48" height="96"/>
+  <object x="96" y="1152" width="1440" height="48"/>
+  <object x="528" y="1104" width="192" height="48"/>
+  <object x="1056" y="1104" width="192" height="48"/>
+  <object x="1440" y="1104" width="96" height="48"/>
+  <object x="1440" y="960" width="48" height="96"/>
+  <object x="1488" y="0" width="48" height="1104"/>
+  <object x="1440" y="144" width="48" height="192"/>
+  <object x="1440" y="0" width="48" height="96"/>
+  <object x="336" y="0" width="1104" height="48"/>
+  <object x="1200" y="48" width="144" height="48"/>
+  <object x="912" y="288" width="48" height="48"/>
+  <object x="432" y="480" width="48" height="48"/>
+  <object x="288" y="1008" width="48" height="48"/>
+ </objectgroup>
+</map>

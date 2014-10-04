@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="55" height="40" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="dungeon"/>
+  <property name="quest_dungeon" value="dungeon;0;100;5;null;killany;20"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="205" name="Collision" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/collision.png" width="50" height="50"/>
+ </tileset>
+ <layer name="L1 Back" width="55" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA92WOxLEMAhDPS73/gfeZqsdx4CQDHFBk3gET+DPHGPMF8XnFwyNrI6CK1ObR2O1ZrXe+m/1w8oTZbQ0It9RdjRQrrdEhKszs2cPeX04URe7d551itwn2KzeqmZG1UvPnlN5q/IswlY1L+ye3cyW1evKdqJfyLwgtXVjY9YQ1Xw6QyM6mXcs6hvT++lcgzIytbLaDEamVjXTKc9u41LMRJfwnqvVdTK4mHswo5GtYXefodpRDdbdptREdJAarFqYeru1yL/sHLH8yuiwIsv2vze7cHXzW5G/mkvpLXrud+eq4Nn5qqg/crae7hk6U8w7QJ0z4gX7fvP0OZOT8a481a8sGxqsOWHlY3Gh87y6SzqyVcatXIr4AiZkOGFgIgAA
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="55" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BgQAAAADDoPlTn+AGVQEAAAAAAAAAwDfsXhSHYCIAAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="55" height="40">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="2112" y="0" width="96" height="96"/>
+  <object name="NextLevel" type="LevelObject" x="2592" y="1440" width="48" height="96">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="Chest" type="LevelObject" x="1728" y="1776" width="48" height="48">
+   <properties>
+    <property name="chestitems" value="Chest:1:ARMOR:10:-1:-1"/>
+    <property name="uniqueId" value="1501"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies" width="55" height="40">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+  <object name="Enemy" type="Stone Warden-1" x="2112" y="384" width="24" height="24"/>
+  <object name="Enemy" type="Stone Warden-1" x="1008" y="384" width="24" height="24"/>
+  <object name="Enemy" type="Stone Warden-1" x="1104" y="1392" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="1812" y="564" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="2292" y="612" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="1716" y="228" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="2436" y="324" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="1140" y="660" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="1236" y="228" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="756" y="228" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="756" y="564" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="276" y="276" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="228" y="756" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="324" y="1716" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="660" y="1188" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="1476" y="1236" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="1812" y="1332" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="324" y="1236" width="24" height="24"/>
+  <object name="Enemy" type="Rock Flinger-2" x="756" y="1524" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="2112" y="1344" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-2" x="1632" y="1728" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="2304" y="1200" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-1" x="2388" y="1524" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="Liquid" width="55" height="40">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="55" height="40">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+ <layer name="Collision" width="55" height="40" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA92WUQ6DMAxDuf/duNO+kCY0Vju2ScBSf6DYeaG07Nu27Q8ahxweqk+CS6kN8VhpNQ99H6gUtm8P5vqqFreqXE8RwzWZGfmGVs8n3muyZyxbIjslZn9UMhhfFy/yzaV6m+rZ2f/ufTKd2XkGdLCpftVst7rObHa9VGqbxuasgfW82kMZH+U/Fq1R9URqXM2pMjq9VG8Ho9Orm+munr2NK7EmpoxfegMzI4e/s+fo8yino19Kf9E63J4VH0VOriu/f3Mr95D7lXpYvwlS2c7f5hSuQ1P6ncjv5kr2trrvO7OTmV3vzcWl7L3sPNQLYauuKecZkM5keuE+365yVrmMl/pfmZKah/yzIqOSp9RzF1d1Pf86SyaydY63ciXGB3SpMR1gIgAA
+  </data>
+ </layer>
+</map>

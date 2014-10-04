@@ -1,0 +1,2156 @@
+<enemies>
+    <!-- = Earth = -->
+    <enemy name="Stone Golem">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>220</hp>
+        <hpPL>100</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>70</damage>
+        <damagePL>8</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>100</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.11f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1100</shootSpeed>
+        <shootSpeedPL>-12</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>250</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Earth Golem">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>210</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>100</damage>
+        <damagePL>8</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>100</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1250</shootSpeed>
+        <shootSpeedPL>-12</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>280</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Rock Flinger">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>350</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>60</damage>
+        <damagePL>5</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>100</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>300</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Earth Ball" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Stone Warden">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>850</hp>
+        <hpPL>150</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>20</damage>
+        <damagePL>12</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>300</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>120</shootRange>
+        <shootRangePL>3</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Ground Slam" level="2" priority="2">
+            </spell> 
+            <spell name="Enhanced Defense" level="2" priority="1">
+                <condition id="0">75</condition>
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Eridus">
+        <type>boss</type>
+        <asset>Eridus</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>120</width>
+        <height>110</height>
+        
+        <hp>4000</hp>
+        <hpPL>1200</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>4</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>1</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>40</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>30</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>30</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>30</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>2</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Air = -->
+    
+    <enemy name="Ghost">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>300</hp>
+        <hpPL>110</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>50</damage>
+        <damagePL>8</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>50</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.13f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>750</shootSpeed>
+        <shootSpeedPL>-5</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>200</shootRange>
+        <shootRangePL>5</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Air Elemental">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>250</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>120</damage>
+        <damagePL>10</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>50</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1000</shootSpeed>
+        <shootSpeedPL>-7</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>280</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Air Blow" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Air Priest">
+        <type>nuker</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>400</hp>
+        <hpPL>100</hpPL>
+        
+        <mana>400</mana>
+        <manaPL>25</manaPL>
+        
+        <damage>40</damage>
+        <damagePL>5</damagePL>
+        
+        <damageBonus>8</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>50</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>50</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>300</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Mass Heal" level="2" priority="1">
+                <condition id="0">60</condition>
+            </spell> 
+            <spell name="Slow Shot" level="2" priority="3">
+            </spell> 
+            <spell name="Air Blow Wide" level="2" priority="2">
+                <condition id="0">90</condition>
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Djiin">
+        <type>nuker</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>1100</hp>
+        <hpPL>110</hpPL>
+        
+        <mana>500</mana>
+        <manaPL>27</manaPL>
+        
+        <damage>50</damage>
+        <damagePL>12</damagePL>
+        
+        <damageBonus>8</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>500</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>50</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>220</shootRange>
+        <shootRangePL>2</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Slow AoE" level="2" priority="1">
+            </spell> 
+            <spell name="Mass Attack Up" level="2" priority="2">
+                <condition id="0">75</condition>
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Artos">
+        <type>boss</type>
+        <asset>Artos</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>4000</hp>
+        <hpPL>1200</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>500</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>400</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>30</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>7500</coldRes>
+        <coldResPL>50</coldResPL>
+        
+        <lightningRes>30</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1800</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>600</shootRange>
+        <shootRangePL>2</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>1500f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">90</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Fire = -->
+    
+    <enemy name="Flame Beast">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>400</hp>
+        <hpPL>125</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>40</damage>
+        <damagePL>10</damagePL>
+        
+        <damageBonus>40</damageBonus>
+        <damageBonusPL>3f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>1000</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.11f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>700</shootSpeed>
+        <shootSpeedPL>-5</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>160</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Flame Ball" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Fire Elemental">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>250</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>200</damage>
+        <damagePL>20</damagePL>
+        
+        <damageBonus>40</damageBonus>
+        <damageBonusPL>3f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>1000</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.1f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1800</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>310</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+         <spells>
+            <spell name="Fireball" level="1" priority="1"/>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Fire Golem">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>1100</hp>
+        <hpPL>150</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>100</damage>
+        <damagePL>14</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>250</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>1000</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1000</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>190</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Flame Slam" level="2" priority="2">
+            </spell> 
+            <spell name="Suicide" level="2" priority="1">
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Fire Wizard">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>350</hp>
+        <hpPL>90</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>60</damage>
+        <damagePL>10</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>50</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>1000</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-10</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>300</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Fireball" level="1" priority="2">
+            <condition id="0">50</condition>
+            </spell>
+            <spell name="Flame Shield" level="1" priority="1">
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <enemy name="Fugis">
+        <type>boss</type>
+        <asset>Fugis</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>8000</hp>
+        <hpPL>1200</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>420</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>40</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>7500</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>30</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>30</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>10</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">60</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Water = -->
+    
+    <enemy name="Seebug">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>400</hp>
+        <hpPL>130</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>80</damage>
+        <damagePL>15</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>900</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>250</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Pirate">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>300</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>120</damage>
+        <damagePL>12f</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1100</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>310</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>true</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Piercing Bullet" level="2" priority="1">
+            </spell> 
+            <spell name="Slow Shot" level="2" priority="2">
+                <condition id="0">60</condition>
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Water Elemental">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>380</hp>
+        <hpPL>110</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>80</damage>
+        <damagePL>10</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>50</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1300</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>250</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Silence Shot" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Crab">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>1200</hp>
+        <hpPL>130</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>90</damage>
+        <damagePL>12</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>250</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>1000</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1600</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>120</shootRange>
+        <shootRangePL>3</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Stun Shot" level="2" priority="1">
+                <condition id="0">30</condition>
+            </spell> 
+            <spell name="Water Surround Shot" level="2" priority="2">
+            </spell> 
+            <spell name="Resistance Shield" level="2" priority="3">
+                <condition id="0">75</condition>
+            </spell> 
+            <spell name="Mass Attack Down" level="2" priority="4">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Wistos">
+        <type>boss</type>
+        <asset>Wistos</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>12000</hp>
+        <hpPL>1200</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>420</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>40</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>30</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>7500</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>30</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>10</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">60</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Beasts = -->
+    
+    <enemy name="Scorpion">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>400</hp>
+        <hpPL>140</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>200</damage>
+        <damagePL>10</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>1000</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1300</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>220</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Poisonous Creature">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>350</hp>
+        <hpPL>100</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>120</damage>
+        <damagePL>12f</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>1000</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1000</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>280</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Poison Shot" level="2" priority="1">
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Outcast">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>290</hp>
+        <hpPL>80</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>60</damage>
+        <damagePL>8</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>50</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>1000</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>2200</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>300</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Mass Heal" level="2" priority="1">
+                <condition id="0">50</condition>
+            </spell>
+            <spell name="Root Shot" level="2" priority="2">
+            </spell>
+            <spell name="Slow Shot Wide" level="2" priority="3">
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Armored Spider">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>1000</hp>
+        <hpPL>140</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>40</damage>
+        <damagePL>8</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>250</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>20</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>1000</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>3000</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>200</shootRange>
+        <shootRangePL>3</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Poison Bombs" level="2" priority="1">
+                <condition id="0">50</condition>
+            </spell>
+            <spell name="Poison Shot Wide" level="2" priority="2">
+            </spell>
+            <spell name="Slow Shot Wide" level="2" priority="3">
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Balis">
+        <type>boss</type>
+        <asset>Balis</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>16000</hp>
+        <hpPL>500</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>420</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>40</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>30</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>30</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>30</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>7500</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>10</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">60</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Lightning = -->
+    
+    <enemy name="Storm Serpent">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>300</hp>
+        <hpPL>140</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>150</damage>
+        <damagePL>14</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>1000</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>800</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>250</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Lightning Elemental">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>250</hp>
+        <hpPL>110</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>140</damage>
+        <damagePL>18</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>1000</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1000</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>320</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Stormcloud">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>320</hp>
+        <hpPL>120</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>200</damage>
+        <damagePL>12</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>50</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>1000</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>240</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Earth Ball" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Storm Wizard">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>500</hp>
+        <hpPL>120</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>120</damage>
+        <damagePL>14</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>250</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>50</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>20</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>1000</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>20</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1500</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>300</shootRange>
+        <shootRangePL>3</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Laxos">
+        <type>boss</type>
+        <asset>Laxos</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>20000</hp>
+        <hpPL>1200</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>420</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>40</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>30</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>30</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>7500</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>10</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">60</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Hatred = -->
+    
+    <enemy name="xx">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>550</hp>
+        <hpPL>160</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>220</damage>
+        <damagePL>15</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>1.2f</damageBonusPL>
+        
+        <armor>1000</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>200</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>200</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>200</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>200</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>1100</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>250</shootRange>
+        <shootRangePL>1</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="xxx">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>500</hp>
+        <hpPL>130</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>150</damage>
+        <damagePL>14</damagePL>
+        
+        <damageBonus>20</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>1000</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>200</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>200</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>200</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>200</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.12f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>700</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>280</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="xxxx">
+        <type>ranger</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>500</hp>
+        <hpPL>140</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>500</damage>
+        <damagePL>20</damagePL>
+        
+        <damageBonus>10</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>1000</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>200</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>200</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>200</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>200</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.10f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>3000</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>400</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>350</shootRange>
+        <shootRangePL>6</shootRangePL>
+        
+        <piercing>true</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+            <spell name="Earth Ball" level="2" priority="1">
+            </spell> 
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Demon">
+        <type>meele</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>850</hp>
+        <hpPL>210</hpPL>
+        
+        <mana>100</mana>
+        <manaPL>17</manaPL>
+        
+        <damage>150</damage>
+        <damagePL>12</damagePL>
+        
+        <damageBonus>5</damageBonus>
+        <damageBonusPL>2f</damageBonusPL>
+        
+        <armor>2000</armor>
+        <armorPL>80</armorPL>
+        
+        <fireRes>200</fireRes>
+        <fireResPL>20</fireResPL>
+        
+        <coldRes>200</coldRes>
+        <coldResPL>20</coldResPL>
+        
+        <lightningRes>200</lightningRes>
+        <lightningResPL>20</lightningResPL>
+        
+        <poisonRes>200</poisonRes>
+        <poisonResPL>20</poisonResPL>
+        
+        <speed>0.16f</speed>
+        <speedPL>0.002f</speedPL>
+        
+        <shootSpeed>850</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>500</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>110</shootRange>
+        <shootRangePL>3</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>true</roaming>
+        
+        <spells>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    <enemy name="Hotrax">
+        <type>boss</type>
+        <asset>Hotrax</asset>
+        <bulletAsset>Deadly Blow</bulletAsset>
+        <width>182</width>
+        <height>162</height>
+        
+        <hp>30000</hp>
+        <hpPL>2000</hpPL>
+        
+        <mana>1000</mana>
+        <manaPL>200</manaPL>
+        
+        <damage>420</damage>
+        <damagePL>80</damagePL>
+        
+        <damageBonus>50</damageBonus>
+        <damageBonusPL>20</damageBonusPL>
+        
+        <armor>1000</armor>
+        <armorPL>0</armorPL>
+        
+        <fireRes>5000</fireRes>
+        <fireResPL>0</fireResPL>
+        
+        <coldRes>5000</coldRes>
+        <coldResPL>0</coldResPL>
+        
+        <lightningRes>5000</lightningRes>
+        <lightningResPL>0</lightningResPL>
+        
+        <poisonRes>5000</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.17f</speed>
+        <speedPL>0.04f</speedPL>
+        
+        <shootSpeed>1400</shootSpeed>
+        <shootSpeedPL>-20</shootSpeedPL>
+        
+        <detectRange>600</detectRange>
+        <detectRangePL>2</detectRangePL>
+        
+        <shootRange>500</shootRange>
+        <shootRangePL>10</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <globalspellcooldown>2000f</globalspellcooldown>
+        
+        <spells>
+            <spell name="Enhanced Defense" level="5" priority="2">
+                <condition id="0">60</condition>
+            </spell>
+        </spells>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+    
+    <!-- = Other = -->
+    
+     <enemy name="td_normal">
+        <type>towerdefense</type>
+        <asset>Monster1</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>160</hp>
+        <hpPL>50</hpPL>
+        
+        <mana>0</mana>
+        <manaPL>0</manaPL>
+        
+        <damage>0</damage>
+        <damagePL>0</damagePL>
+        
+        <damageBonus>0</damageBonus>
+        <damageBonusPL>0</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>0</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>0</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>0</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>0</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.11f</speed>
+        <speedPL>0</speedPL>
+        
+        <shootSpeed>0</shootSpeed>
+        <shootSpeedPL>0</shootSpeedPL>
+        
+        <detectRange>0</detectRange>
+        <detectRangePL>0</detectRangePL>
+        
+        <shootRange>0</shootRange>
+        <shootRangePL>0</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <oocRegen>false</oocRegen>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+     <enemy name="td_boss">
+        <type>towerdefense</type>
+        <asset>Druid</asset>
+        <bulletAsset>Normal</bulletAsset>
+        <width>47</width>
+        <height>42</height>
+        
+        <hp>1500</hp>
+        <hpPL>150</hpPL>
+        
+        <mana>0</mana>
+        <manaPL>0</manaPL>
+        
+        <damage>0</damage>
+        <damagePL>0</damagePL>
+        
+        <damageBonus>0</damageBonus>
+        <damageBonusPL>0</damageBonusPL>
+        
+        <armor>0</armor>
+        <armorPL>0</armorPL>
+        
+        <fireRes>0</fireRes>
+        <fireResPL>0</fireResPL>
+        
+        <coldRes>0</coldRes>
+        <coldResPL>0</coldResPL>
+        
+        <lightningRes>0</lightningRes>
+        <lightningResPL>0</lightningResPL>
+        
+        <poisonRes>0</poisonRes>
+        <poisonResPL>0</poisonResPL>
+        
+        <speed>0.08f</speed>
+        <speedPL>0</speedPL>
+        
+        <shootSpeed>0</shootSpeed>
+        <shootSpeedPL>0</shootSpeedPL>
+        
+        <detectRange>0</detectRange>
+        <detectRangePL>0</detectRangePL>
+        
+        <shootRange>0</shootRange>
+        <shootRangePL>0</shootRangePL>
+        
+        <piercing>false</piercing>
+        
+        <roaming>false</roaming>
+        
+        <oocRegen>false</oocRegen>
+        
+        <spells/>
+        
+        <deathAnimation>da_blood</deathAnimation>
+    </enemy>
+</enemies>

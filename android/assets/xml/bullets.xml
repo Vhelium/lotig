@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bullets>
+	<bullet name="Normal">
+		<asset>Druid</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="DefenseTower">
+		<asset>Dark Priest</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="tutorialBullet">
+		<asset>Druid</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Druid">
+		<asset>Druid</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Dark Priest">
+		<asset>Dark Priest</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Barbarian">
+		<asset>Barbarian</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Death Knight">
+		<asset>Death Knight</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Sorcerer">
+		<asset>Sorcerer</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Ranger">
+		<asset>Ranger</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Fireball">
+		<asset>Fireball</asset>
+		<speed>0.45f</speed>
+	</bullet>
+	<bullet name="Stunning Strike">
+		<asset>Stunning Strike</asset>
+		<speed>0.5f</speed>
+	</bullet>
+	<bullet name="Shield Bash">
+		<asset>Shield Bash</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Flame Strike">
+		<asset>Flame Strike</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Deadly Blow">
+		<asset>Deadly Blow</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Critical Strike">
+		<asset>Critical Strike</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Sunder Armor">
+		<asset>Sunder Armor</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Frost Strike">
+		<asset>Frost Strike</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Flame Breath">
+		<asset>Flame Breath</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Barrage">
+		<asset>Barrage</asset>
+		<speed>0.75f</speed>
+	</bullet>
+	<bullet name="Ice Dart">
+		<asset>Ice Dart</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Entangle">
+		<asset>Entangle</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Daunting Ghost">
+		<asset>Daunting Ghost</asset>
+		<speed>0.75f</speed>
+	</bullet>
+	<bullet name="Vampiric Touch">
+		<asset>Vampiric Touch</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Silence">
+		<asset>Silence</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Thunderbolt">
+		<asset>Thunderbolt</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Living Bomb">
+		<asset>Living Bomb</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Mana Burn">
+		<asset>Mana Burn</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Explosive Shot">
+		<asset>Explosive Shot</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Multi-Shot">
+		<asset>Multi-Shot</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Deadly Shot">
+		<asset>Deadly Shot</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Poisonous Arrow">
+		<asset>Poisonous Arrow</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Air Blow">
+		<asset>Air Blow</asset>
+		<speed>0.8f</speed>
+	</bullet>
+	<bullet name="Air Blow Wide">
+		<asset>Air Blow Wide</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Earth Ball">
+		<asset>Earth Ball</asset>
+		<speed>0.45f</speed>
+	</bullet>
+	<bullet name="Flame Ball">
+		<asset>Flame Ball</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Flame Breath">
+		<asset>Flame Breath</asset>
+		<speed>0.5f</speed>
+	</bullet>
+	<bullet name="Poison Shot">
+		<asset>Poison Shot</asset>
+		<speed>0.7f</speed>
+	</bullet>
+	<bullet name="Poison Shot Wide">
+		<asset>Poison Shot Wide</asset>
+		<speed>0.5f</speed>
+	</bullet>
+	<bullet name="Slow Shot">
+		<asset>Slow Shot</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Slow Shot Wide">
+		<asset>Slow Shot Wide</asset>
+		<speed>0.6f</speed>
+	</bullet>
+	<bullet name="Stun Shot">
+		<asset>Stun Shot</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Stun Shot Wide">
+		<asset>Stun Shot Wide</asset>
+		<speed>0.65f</speed>
+	</bullet>
+	<bullet name="Water Surround Shot">
+		<asset>Water Surround Shot</asset>
+		<speed>0.55f</speed>
+	</bullet>
+	<bullet name="Lightning Shot">
+		<asset>Lightning Shot</asset>
+		<speed>0.5f</speed>
+	</bullet>
+	<bullet name="Lightning Bolt">
+		<asset>Lightning Bolt</asset>
+		<speed>0.9f</speed>
+	</bullet>
+	<bullet name="Mod Orbs">
+		<asset>Mod Orbs</asset>
+		<speed>0.4f</speed>
+	</bullet>
+	<bullet name="Mod Sniper">
+		<asset>Mod Sniper</asset>
+		<speed>1.5f</speed>
+	</bullet>
+</bullets>

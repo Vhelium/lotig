@@ -1,0 +1,3 @@
+Once an equipment is looted it cannot be dropped or put into stash.
+Killing a god in his lair will unlock the next lair.
+Higher difficulty means tougher enemies but better loot!

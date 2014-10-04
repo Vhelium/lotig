@@ -1,0 +1,306 @@
+
+bullets.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Slow Shot Wide
+  rotate: false
+  xy: 1, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Shield Bash
+  rotate: false
+  xy: 93, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Poison Shot Wide
+  rotate: false
+  xy: 185, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Flame Breath
+  rotate: false
+  xy: 277, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Barrage
+  rotate: false
+  xy: 369, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Daunting Ghost
+  rotate: false
+  xy: 461, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Air Blow Wide
+  rotate: false
+  xy: 553, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Stun Shot Wide
+  rotate: false
+  xy: 645, 15
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1
+Mod Orbs
+  rotate: false
+  xy: 737, 15
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+Air Blow
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Thunderbolt
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Living Bomb
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Frost Strike
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Silence
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Water Surround Shot
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Lightning Shot
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Mana Burn
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Ice Dart
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Lightning Bolt
+  rotate: false
+  xy: 775, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Sunder Armor
+  rotate: false
+  xy: 797, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Critical Strike
+  rotate: false
+  xy: 797, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Entangle
+  rotate: false
+  xy: 797, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Deadly Blow
+  rotate: false
+  xy: 797, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Earth Ball
+  rotate: false
+  xy: 797, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Flame Strike
+  rotate: false
+  xy: 819, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Fireball
+  rotate: false
+  xy: 819, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Flame Ball
+  rotate: false
+  xy: 819, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Vampiric Touch
+  rotate: false
+  xy: 841, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Stunning Strike
+  rotate: false
+  xy: 841, 21
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Explosive Shot
+  rotate: false
+  xy: 863, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Deadly Shot
+  rotate: false
+  xy: 863, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Multi-Shot
+  rotate: false
+  xy: 863, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Death Knight
+  rotate: false
+  xy: 877, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Mod Sniper
+  rotate: false
+  xy: 891, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Sorcerer
+  rotate: false
+  xy: 905, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Ranger
+  rotate: false
+  xy: 919, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Dark Priest
+  rotate: false
+  xy: 933, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Barbarian
+  rotate: false
+  xy: 947, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Poisonous Arrow
+  rotate: false
+  xy: 961, 21
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+Druid
+  rotate: false
+  xy: 1, 1
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Poison Shot
+  rotate: false
+  xy: 1, 1
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Stun Shot
+  rotate: false
+  xy: 975, 39
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Slow Shot
+  rotate: false
+  xy: 15, 1
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1

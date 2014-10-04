@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="1" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="2" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZWBgYB3Fo3gUj+JRPIqBmBOKiVELAIKYB9k=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTZGBgkKQyphYYNW/UvFHzRs0bNY+65hFbfhOjFgA/vQc7
+  </data>
+ </layer>
+ <objectgroup name="Events" width="20" height="20">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="432" y="816" width="96" height="48"/>
+  <object name="LevelExit" type="LevelObject" x="432" y="912" width="96" height="48">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Collision" width="20" height="20">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+  <object x="912" y="0" width="48" height="960"/>
+  <object x="528" y="912" width="384" height="48"/>
+  <object x="0" y="912" width="432" height="48"/>
+  <object x="0" y="0" width="48" height="912"/>
+  <object x="48" y="0" width="864" height="48"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,564 @@
+
+effects.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+da_player
+  rotate: false
+  xy: 1, 859
+  size: 900, 150
+  orig: 900, 150
+  offset: 0, 0
+  index: -1
+da_blood
+  rotate: false
+  xy: 1, 859
+  size: 900, 150
+  orig: 900, 150
+  offset: 0, 0
+  index: -1
+AoeAreaWarning
+  rotate: false
+  xy: 903, 979
+  size: 120, 30
+  orig: 120, 30
+  offset: 0, 0
+  index: -1
+shrine_spd
+  rotate: false
+  xy: 903, 887
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+shrine_atk
+  rotate: false
+  xy: 955, 887
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+shrine_hpreg
+  rotate: false
+  xy: 903, 795
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+shrine_manareg
+  rotate: false
+  xy: 955, 795
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+Spike Ring Warning
+  rotate: false
+  xy: 1, 457
+  size: 800, 400
+  orig: 800, 400
+  offset: 0, 0
+  index: -1
+shrine_atkspd
+  rotate: false
+  xy: 803, 767
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+Mana Pot
+  rotate: false
+  xy: 855, 785
+  size: 33, 72
+  orig: 33, 72
+  offset: 0, 0
+  index: -1
+Frozen
+  rotate: false
+  xy: 890, 730
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+Hp Pot
+  rotate: false
+  xy: 855, 711
+  size: 33, 72
+  orig: 33, 72
+  offset: 0, 0
+  index: -1
+shrine_def
+  rotate: false
+  xy: 803, 675
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+Meteor Strike
+  rotate: false
+  xy: 1, 305
+  size: 750, 150
+  orig: 750, 150
+  offset: 0, 0
+  index: -1
+Burning
+  rotate: false
+  xy: 1, 123
+  size: 300, 180
+  orig: 300, 180
+  offset: 0, 0
+  index: -1
+Spike Trap small
+  rotate: false
+  xy: 1, 73
+  size: 288, 48
+  orig: 288, 48
+  offset: 0, 0
+  index: -1
+Meditation
+  rotate: false
+  xy: 303, 153
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Time Warp
+  rotate: false
+  xy: 303, 153
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Frost Bomb
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Arcane Explosions
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Firestorm
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Absorb
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Earthquake
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Magic Trick
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Frost Nova
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Earth Ball
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Hell Fire
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Clutch of Death
+  rotate: false
+  xy: 303, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+
+effects2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Silenced
+  rotate: false
+  xy: 1, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Flame Shield
+  rotate: false
+  xy: 303, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Spell Shield
+  rotate: false
+  xy: 303, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Molten Shield
+  rotate: false
+  xy: 303, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Stunned
+  rotate: false
+  xy: 605, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Clutch of Death Debuff
+  rotate: false
+  xy: 1, 609
+  size: 450, 150
+  orig: 450, 150
+  offset: 0, 0
+  index: -1
+Entangle
+  rotate: false
+  xy: 1, 609
+  size: 450, 150
+  orig: 450, 150
+  offset: 0, 0
+  index: -1
+Flesh Reformation
+  rotate: false
+  xy: 1, 609
+  size: 450, 150
+  orig: 450, 150
+  offset: 0, 0
+  index: -1
+Mass Dispel
+  rotate: false
+  xy: 1, 609
+  size: 450, 150
+  orig: 450, 150
+  offset: 0, 0
+  index: -1
+Pathfinder
+  rotate: false
+  xy: 453, 609
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Absorb Buff
+  rotate: false
+  xy: 453, 609
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Ground Slam
+  rotate: false
+  xy: 1, 457
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Bloodthirst
+  rotate: false
+  xy: 603, 457
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Terrifying Shout
+  rotate: false
+  xy: 1, 305
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Overcharge
+  rotate: false
+  xy: 1, 305
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Ravage
+  rotate: false
+  xy: 603, 305
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Living Bomb Debuff
+  rotate: false
+  xy: 603, 305
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Shadow Curse
+  rotate: false
+  xy: 603, 305
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Poison Bombs
+  rotate: false
+  xy: 1, 153
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Poison Trap
+  rotate: false
+  xy: 1, 153
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Rage
+  rotate: false
+  xy: 603, 153
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Living Bomb
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Flame Slam
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Fireball
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Fire Trap
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Thorn Armor
+  rotate: false
+  xy: 603, 1
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Inner Beast
+  rotate: false
+  xy: 603, 1
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+
+effects3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Frost Strike
+  rotate: false
+  xy: 1, 761
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Poisoned
+  rotate: false
+  xy: 603, 761
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Lightning Trap
+  rotate: false
+  xy: 1, 609
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Mana Burn
+  rotate: false
+  xy: 603, 609
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Mass Heal
+  rotate: false
+  xy: 1, 457
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Absorb Debuff
+  rotate: false
+  xy: 603, 457
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Cleave
+  rotate: false
+  xy: 1, 305
+  size: 750, 150
+  orig: 750, 150
+  offset: 0, 0
+  index: -1
+Healed
+  rotate: false
+  xy: 1, 153
+  size: 450, 150
+  orig: 450, 150
+  offset: 0, 0
+  index: -1
+Bond of Debt Debuff
+  rotate: false
+  xy: 453, 153
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Taunt
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Blast Spirit
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Mithril Armor
+  rotate: false
+  xy: 603, 1
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+Bond of Debt
+  rotate: false
+  xy: 603, 1
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+
+effects4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bladestorm
+  rotate: false
+  xy: 1, 761
+  size: 750, 150
+  orig: 750, 150
+  offset: 0, 0
+  index: -1
+Spike Trap
+  rotate: false
+  xy: 1, 609
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Slow AoE
+  rotate: false
+  xy: 1, 457
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Intimidation
+  rotate: false
+  xy: 1, 457
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Enhanced Defense Up
+  rotate: false
+  xy: 1, 305
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Thundering Roar
+  rotate: false
+  xy: 1, 153
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Spike Ring
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1
+Weakening Debuff
+  rotate: false
+  xy: 603, 609
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+
+effects5.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cold Trap
+  rotate: false
+  xy: 1, 1
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1

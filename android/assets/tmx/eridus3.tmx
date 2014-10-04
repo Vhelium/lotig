@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="75" height="40" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="dungeon"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="205" name="Collision" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/collision.png" width="50" height="50"/>
+ </tileset>
+ <layer name="L1 Back" width="75" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+XVsRLDIAwDUI6hA///wV065LgjIFsSJB2Ymgj8jNNaSqmk1X6LlXfqaiVXawOXsg6X02pdqI3SjbWHu+4dXtl9kOcdDgqvHX10WbC9nH3N7qk4O8uK7cmc+R1eyj7Wm6zR/4Ci5zusmPOzkoV+e9nny1rVwW/RszzJapQ/e47prrZi3mHEKtLTzD1w3KtsNvNenWzFyJ6947Ji9F3pFLHKZEXri8yb6r6q3TO1ZtfnspxWkZxTnFa9+nqiXqjVaU4zKyTfYYWcKeONWqH5b7lXaieGVZ+B3A+WrXr2mFYNfD6aj1ix6mJZ9ffIObPXDIfTjnvF/Lb1Z1U6zbwiGQxPVp9dVtEMloPKi71f5n23Fer1RqvVOt1zyPhOqf9jmOupVk4j9QzO8pGzoFm7rO6eO2EGHX6Ks2QyGOdRGKL5Dit0hpX37tR9lHOY6ZXD6mlezl4wvFbec8yLyyZay8o3ldkfVo+zLqv7q/b5h/UFALT29+AuAAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="75" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQnAMAwDwKzW/Zfqq9/SgI2jcjeBiBSStQB4XNMBaKFXOu3uyx7hn9xtAKjjXc2x05VeeWMfc9LPPj0/AMCEyj9Uyn8sJSffdXd68mZOzgYAlW4piTUM4C4AAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="75" height="40">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="912" y="0" width="96" height="96"/>
+  <object name="NextLevel" type="LevelObject" x="3552" y="1680" width="48" height="96">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1584" y="1728" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1584" y="1776" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1488" y="1728" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1536" y="1728" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1488" y="1776" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1536" y="1776" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2880" y="432" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="Chest" type="LevelObject" x="2880" y="672" width="48" height="48">
+   <properties>
+    <property name="chestitems" value="Chest:1:ARMOR:10:-1:-1"/>
+    <property name="uniqueId" value="1301"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2880" y="480" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2832" y="480" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2784" y="480" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2784" y="528" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2784" y="576" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2832" y="576" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2880" y="576" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone2"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2208" y="1200" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2304" y="1680" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="2448" y="288" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="1296" y="960" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="720" y="1248" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="240" y="240" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="144" y="1440" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="3168" y="864" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="3312" y="1680" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="2"/>
+   </properties>
+  </object>
+  <object name="Trap" type="LevelObject" x="1248" y="1680" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="animationTime" value="0"/>
+    <property name="asset" value="Spike Trap small"/>
+    <property name="damage" value="400"/>
+    <property name="damageType" value="1"/>
+    <property name="effectAsset" value="Spike Trap small"/>
+    <property name="range" value="24"/>
+    <property name="soundEffect" value="spell_spikes"/>
+   </properties>
+  </object>
+  <object name="Trap" type="LevelObject" x="1104" y="1776" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="animationTime" value="0"/>
+    <property name="asset" value="Spike Trap small"/>
+    <property name="damage" value="400"/>
+    <property name="damageType" value="1"/>
+    <property name="effectAsset" value="Spike Trap small"/>
+    <property name="range" value="24"/>
+    <property name="soundEffect" value="spell_spikes"/>
+   </properties>
+  </object>
+  <object name="Trap" type="LevelObject" x="1968" y="1728" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="animationTime" value="0"/>
+    <property name="asset" value="Spike Trap small"/>
+    <property name="damage" value="400"/>
+    <property name="damageType" value="1"/>
+    <property name="effectAsset" value="Spike Trap small"/>
+    <property name="range" value="24"/>
+    <property name="soundEffect" value="spell_spikes"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies" width="75" height="40">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+  <object name="Enemy" type="Stone Golem-1" x="1584" y="288" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="1488" y="480" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="1680" y="480" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="336" y="144" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="192" y="384" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="228" y="1188" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="324" y="1284" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="420" y="1668" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="708" y="996" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="900" y="1140" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="1236" y="1284" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="2052" y="1284" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="2532" y="1284" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="2628" y="180" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="2916" y="276" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="3264" y="1200" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="3156" y="1332" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="3216" y="1056" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="3396" y="1572" width="24" height="24"/>
+  <object name="Enemy" type="Stone Golem-0" x="3108" y="1668" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="432" y="768" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="960" y="1680" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="2448" y="816" width="24" height="24"/>
+  <object name="Enemy" type="Earth Golem-1" x="3396" y="228" width="24" height="24"/>
+  <object name="Enemy" type="Rock Flinger-0" x="1248" y="816" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="75" height="40">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+ <layer name="Collision" width="75" height="40" opacity="0.26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WVUQ7DMAhDe/+79U77mjRNS4KxDWi1lJ8tGPIC6X1d1y1ab6n8pq5PsfEROc9RxSl6LqXc9UdzRGImyM1qlwfZ75by7jvuWJlTWXc3q5Uvm9NRu4qVmqdy5jt4IR6ZGnb17PavYhzMHKyU8xPxQt9edX0sq3vxX7YWtv5KViv/0z4ld7b+yFlOcrDK3CnTBxV9xXor+2oyK4X3KaaKFXIeVKo7QFkxXojYeYvU5O7/jM8UVbLK+EwTcsZV/Q5WE6V6JypYITU5eDve03/sK+V7yrL69vj8LRLnlGr2In7o7DBsIzGIVOdSeX73UeXM7jwcnJS+GVasftXq4rTKmfGN9qHyjTpxqWKV9ahWNysmvkNPZxU9Z/UcKt4p9zdGuRh1sqpk5J7Bkz9SC+rVxWq3b8IMRv0n9RQ7R4p60JwIJ6ZGNSt0hlk5+8iVxzmHSG5XfvV8d/JyyvEeRuIq5oWV+xsSeVOV96O6Y5ZLNL8rzxPWC8LAy2XgLgAA
+  </data>
+ </layer>
+ <objectgroup name="Liquid" width="75" height="40">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+  <object name="Lava" x="1728" y="768" width="48" height="240"/>
+  <object name="Lava" x="1440" y="1008" width="48" height="144"/>
+  <object name="Lava" x="1488" y="960" width="48" height="192"/>
+  <object name="Lava" x="1536" y="864" width="48" height="336"/>
+  <object name="Lava" x="1584" y="816" width="48" height="336"/>
+  <object name="Lava" x="1632" y="768" width="48" height="336"/>
+  <object name="Lava" x="1776" y="816" width="48" height="144"/>
+  <object name="Lava" x="1680" y="768" width="48" height="288"/>
+ </objectgroup>
+</map>

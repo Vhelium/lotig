@@ -1,0 +1,271 @@
+
+assets.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vortex
+  rotate: false
+  xy: 1, 111
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+levelExit
+  rotate: false
+  xy: 403, 463
+  size: 576, 48
+  orig: 576, 48
+  offset: 0, 0
+  index: -1
+RegFo
+  rotate: false
+  xy: 1, 13
+  size: 288, 96
+  orig: 288, 96
+  offset: 0, 0
+  index: -1
+Lair Portal
+  rotate: false
+  xy: 403, 401
+  size: 300, 60
+  orig: 300, 60
+  offset: 0, 0
+  index: -1
+gate
+  rotate: false
+  xy: 403, 351
+  size: 192, 48
+  orig: 192, 48
+  offset: 0, 0
+  index: -1
+Door
+  rotate: false
+  xy: 705, 413
+  size: 192, 48
+  orig: 192, 48
+  offset: 0, 0
+  index: -1
+shrine_spd
+  rotate: false
+  xy: 403, 269
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+shrine_atk
+  rotate: false
+  xy: 403, 187
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+shrine_hpreg
+  rotate: false
+  xy: 403, 105
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+Adventurer
+  rotate: false
+  xy: 705, 361
+  size: 160, 50
+  orig: 160, 50
+  offset: 0, 0
+  index: -1
+Lever
+  rotate: false
+  xy: 291, 61
+  size: 96, 48
+  orig: 96, 48
+  offset: 0, 0
+  index: -1
+shrine_manareg
+  rotate: false
+  xy: 389, 23
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+shrine_atkspd
+  rotate: false
+  xy: 549, 269
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+shrine_def
+  rotate: false
+  xy: 549, 187
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+dummy
+  rotate: false
+  xy: 597, 351
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+cold_trap
+  rotate: false
+  xy: 647, 351
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Frost Bomb
+  rotate: false
+  xy: 647, 351
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+arrow3
+  rotate: false
+  xy: 549, 105
+  size: 22, 80
+  orig: 22, 80
+  offset: 0, 0
+  index: -1
+arrow1
+  rotate: false
+  xy: 899, 439
+  size: 80, 22
+  orig: 80, 22
+  offset: 0, 0
+  index: -1
+arrow2
+  rotate: false
+  xy: 535, 23
+  size: 22, 80
+  orig: 22, 80
+  offset: 0, 0
+  index: -1
+lightning_trap
+  rotate: false
+  xy: 573, 137
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+spike_trap
+  rotate: false
+  xy: 623, 137
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+poison_trap
+  rotate: false
+  xy: 291, 11
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+tombstone
+  rotate: false
+  xy: 867, 363
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: false
+  xy: 573, 87
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 623, 87
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TipSign
+  rotate: false
+  xy: 559, 37
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: false
+  xy: 609, 37
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+lootBag
+  rotate: false
+  xy: 559, 1
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+Lightwell
+  rotate: false
+  xy: 917, 389
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fire_trap
+  rotate: false
+  xy: 917, 339
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Spike Trap small
+  rotate: false
+  xy: 867, 313
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Town Portal
+  rotate: false
+  xy: 917, 289
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Lightwell Orb
+  rotate: false
+  xy: 981, 493
+  size: 36, 18
+  orig: 36, 18
+  offset: 0, 0
+  index: -1
+DirectionArrow
+  rotate: false
+  xy: 341, 44
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+teamFlag1
+  rotate: false
+  xy: 673, 174
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+teamFlag2
+  rotate: false
+  xy: 559, 92
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+QuestMark
+  rotate: false
+  xy: 697, 392
+  size: 3, 7
+  orig: 3, 7
+  offset: 0, 0
+  index: -1

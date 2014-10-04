@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="40" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="205" name="Collision" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/collision.png" width="50" height="50"/>
+ </tileset>
+ <layer name="L1 Back" width="25" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UOw4AIAgDUCYXuf95XTyAJnxa0qGjeUkR3Mxcgc1OSKdR0ZUMGb9ZN+zGS1eRe91hIPwXFmPKzJE6ZTHYZ87SM4JRsVuVRtRbRCPzJuruzjIOP2uTA6APAAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="25" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UuwkAMAgAUddz/4XEPoLExs+9UtKdRmQ/Tc6jd+jt1Y3mqGKv4CrN2YP+uHM47nyG3x50m+vqv2tVOxFOoA8AAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="25" height="40">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="1056" y="384" width="96" height="96"/>
+  <object name="Event" type="onenter" x="1080" y="600" width="48" height="48">
+   <properties>
+    <property name="realmchange" value="fight"/>
+   </properties>
+  </object>
+  <object name="MonsterSpawn" type="static" x="1104" y="192" width="96" height="96"/>
+  <object name="Waypoint" type="static" x="192" y="192" width="48" height="48">
+   <properties>
+    <property name="nr" value="1"/>
+   </properties>
+  </object>
+  <object name="EventAll" type="onenter" x="192" y="1906" width="96" height="14">
+   <properties>
+    <property name="tdFinish" value=""/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="192" y="720" width="48" height="48">
+   <properties>
+    <property name="nr" value="2"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="912" y="720" width="48" height="48">
+   <properties>
+    <property name="nr" value="3"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="912" y="960" width="48" height="48">
+   <properties>
+    <property name="nr" value="4"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="192" y="960" width="48" height="48">
+   <properties>
+    <property name="nr" value="5"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="192" y="1200" width="48" height="48">
+   <properties>
+    <property name="nr" value="6"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="912" y="1200" width="48" height="48">
+   <properties>
+    <property name="nr" value="7"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="912" y="1632" width="48" height="48">
+   <properties>
+    <property name="nr" value="8"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="432" y="1632" width="48" height="48">
+   <properties>
+    <property name="nr" value="9"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="432" y="1440" width="48" height="48">
+   <properties>
+    <property name="nr" value="10"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="192" y="1440" width="48" height="48">
+   <properties>
+    <property name="nr" value="11"/>
+   </properties>
+  </object>
+  <object name="Waypoint" type="static" x="192" y="1848" width="48" height="48">
+   <properties>
+    <property name="nr" value="12"/>
+   </properties>
+  </object>
+  <object name="Tower" type="static" x="336" y="96" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="96" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="96" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="336" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="336" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="336" width="48" height="48"/>
+  <object name="Tower" type="static" x="96" y="336" width="48" height="48"/>
+  <object name="Tower" type="static" x="96" y="624" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="624" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="624" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="624" width="48" height="48"/>
+  <object name="Tower" type="static" x="1056" y="864" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="864" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="864" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="864" width="48" height="48"/>
+  <object name="Tower" type="static" x="96" y="1104" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="1104" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="1104" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="1104" width="48" height="48"/>
+  <object name="Tower" type="static" x="1056" y="1344" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="1344" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="1344" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="1344" width="48" height="48"/>
+  <object name="Tower" type="static" x="336" y="1584" width="48" height="48"/>
+  <object name="Tower" type="static" x="96" y="1584" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="1536" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="1536" width="48" height="48"/>
+  <object name="Tower" type="static" x="1056" y="1536" width="48" height="48"/>
+  <object name="Tower" type="static" x="816" y="1776" width="48" height="48"/>
+  <object name="Tower" type="static" x="624" y="1776" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="25" height="40">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Liquid" width="25" height="40">
+  <properties>
+   <property name="Liquid" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="25" height="40">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+ <layer name="Collision" width="25" height="40" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQwfoAAAAIC3Ab6TizqgDwAA
+  </data>
+ </layer>
+</map>

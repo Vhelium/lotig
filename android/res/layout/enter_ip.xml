@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:paddingLeft="12dp"
+        android:text="Enter IP:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/enter_ip_box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ip-Adress!"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:paddingLeft="12dp"
+        android:paddingTop="30dp"
+        android:text="Enter Port (default 6000):"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/enter_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Port-Nr!"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/cmd_connect"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="sendConnect"
+        android:text="connect" />
+</LinearLayout>

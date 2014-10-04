@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="31" height="145" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="music" value="dungeon"/>
+ </properties>
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="L1 Back" width="31" height="145">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XuxLDIAwEPcmk8P//cNpkBrDAemBpi2uzOd2BxXkcx4nQ5noN5MH+NAT7uexRnzzYrd8fCbYu+yp/zbulxbY+P3d9a/zHlby15lOZLdVOnczAjpz5bOdg23TJ43ti3eMn+a7atUrs6t+xSN+S7GHb98ryTt2507xL7NnvH8HOn7cXO+p8S2ZhuSes+Lby6fkN24Ut2RUz+obtx44631dzyPj+6c2/NXNvrgd/xLXkS7gW/BmuNn+Hnamq79muZfFN3uRN3uRN3jl8V807wvcsP2pPjnofRL2LPLi97ld4A8OGDRs2bNgrnJZ6O3mm/Rw27ArsqPMtmUX0nRrl2ypv2P9sSfcj+2fl0cN39L0Gey7/Hfv7RN9VuwYbNmx99qrushHS0hdNmejhPEYAAA==
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="31" height="145">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XUY7DIAxEe4Pe/wjVXnK/VupGMTGux6bhjZQPIjyPCSSBxwOh9fUaXBXsmft3ZP80sj33I/6zayqTXVED2/a5mv/Mb8sZu0rR3BljjHrA/owdmd/uNXkHduczn/WCnc+u+p9Y7CqtlDu7P+z12Lv/xzpze3xha9nqb+oVW8XxrGnOJbBhfye76/22xjNqZ7Nmc2eylf2/ge3ZK94xN+w6dtf7fTaWUVupLvbomVdwn4f7TzHf463gW3mPys4f8co8G1zlPeovfwZ759xer+yzYHdudY3l052b+dbUWD7duZlvTY3l052b+dbUWD475p71Uu6Tq7ke78pzUTX3nTVqw4YNGzZs2LD/77etvbenT5RdWQcb9o7srvfbGs+ordRKuaN9YM+xPWu/Sgq2lbEid/d3DXZ8/rPYVVopt7oONmzY+7CjF0Kr6BdAtPaYPEYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="31" height="145">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="912" y="6528" width="48" height="48"/>
+  <object name="Font" type="LevelObject" x="768" y="6432" width="48" height="48">
+   <properties>
+    <property name="text" value="Use your left gamepad to move"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="504" y="6288" width="48" height="48">
+   <properties>
+    <property name="text" value="This way!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="6000" width="48" height="48">
+   <properties>
+    <property name="text" value="Good job!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="864" y="5712" width="48" height="48">
+   <properties>
+    <property name="text" value="Keep going!"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="672" y="5136" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="720" y="5136" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="DestroyableTile" type="LevelObject" x="768" y="5136" width="48" height="48">
+   <properties>
+    <property name="animated" value="false"/>
+    <property name="asset" value="stone"/>
+    <property name="collision" value="true"/>
+    <property name="hp" value="3"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="5376" width="48" height="48">
+   <properties>
+    <property name="text" value="Use your right gamepad to shoot!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="5280" width="48" height="48">
+   <properties>
+    <property name="text" value="Destroy this rocks!"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="672" y="4848" width="144" height="240">
+   <properties>
+    <property name="showOnScreenInfo" value="1"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="672" y="4608" width="144" height="240">
+   <properties>
+    <property name="showOnScreenInfo" value="2"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="4176" width="48" height="48">
+   <properties>
+    <property name="text" value="Try to dodge the bullets!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="3696" width="48" height="48">
+   <properties>
+    <property name="text" value="Stay alive!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="3216" width="48" height="48">
+   <properties>
+    <property name="text" value="Well done!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="2736" width="48" height="48">
+   <properties>
+    <property name="text" value="You are hurt! Time for a potion."/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="2798" width="48" height="10">
+   <properties>
+    <property name="text" value="Open the character menu and assign"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="2842" width="48" height="10">
+   <properties>
+    <property name="text" value="a potion to the hotkeys."/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="480" y="2544" width="528" height="336">
+   <properties>
+    <property name="showOnScreenInfo" value="3"/>
+   </properties>
+  </object>
+  <object name="Chest" type="LevelObject" x="720" y="2208" width="48" height="48">
+   <properties>
+    <property name="chestitems" value="Chest:1:ARMOR:5:-1:-1"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="2304" width="48" height="48">
+   <properties>
+    <property name="text" value="Loot the chest!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="840" y="1824" width="48" height="48">
+   <properties>
+    <property name="text" value="It's time to prepare a spell."/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="768" y="1488" width="48" height="10">
+   <properties>
+    <property name="text" value="Open the character screen and assign"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="768" y="1526" width="48" height="10">
+   <properties>
+    <property name="text" value="a spell to the hotkeys!"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="768" y="1200" width="48" height="10">
+   <properties>
+    <property name="text" value="Some spells instantly activate and some"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="768" y="1238" width="48" height="10">
+   <properties>
+    <property name="text" value="activate with the next shot!"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="768" y="816" width="288" height="336">
+   <properties>
+    <property name="showOnScreenInfo" value="5"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="432" y="672" width="336" height="288">
+   <properties>
+    <property name="showOnScreenInfo" value="6"/>
+   </properties>
+  </object>
+  <object name="Event" type="onenter" x="864" y="384" width="48" height="48">
+   <properties>
+    <property name="levelchange" value="town"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="768" y="576" width="48" height="48">
+   <properties>
+    <property name="text" value="Use the portal to reach the town!"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="528" y="1440" width="528" height="192">
+   <properties>
+    <property name="showOnScreenInfo" value="4"/>
+   </properties>
+  </object>
+  <object name="Font" type="LevelObject" x="720" y="2112" width="48" height="48">
+   <properties>
+    <property name="text" value="Equip the chest plate from the inventory!"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3552" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3456" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3360" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3264" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3648" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3744" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3840" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="3936" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="4032" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="432" y="4128" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="4128" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="4032" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3936" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3744" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3840" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3648" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3456" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3552" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3360" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="1008" y="3264" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="-1"/>
+    <property name="dirY" value="0"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="528" y="3168" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="0"/>
+    <property name="dirY" value="1"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="624" y="3072" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="0"/>
+    <property name="dirY" value="1"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="816" y="3072" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="0"/>
+    <property name="dirY" value="1"/>
+   </properties>
+  </object>
+  <object name="BulletSpawn" type="LevelObject" x="912" y="3168" width="48" height="48">
+   <properties>
+    <property name="bulletAsset" value="tutorialBullet"/>
+    <property name="delay" value="1500"/>
+    <property name="delayVariation" value="1000"/>
+    <property name="dirX" value="0"/>
+    <property name="dirY" value="1"/>
+   </properties>
+  </object>
+  <object name="EventClient" type="onenter" x="672" y="4368" width="144" height="240">
+   <properties>
+    <property name="showOnScreenInfo" value="14"/>
+   </properties>
+  </object>
+  <object name="Event" type="onenter" x="1008" y="6240" width="48" height="48">
+   <properties>
+    <property name="levelchange" value="town"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies" width="31" height="145">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="31" height="145">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+  <object x="384" y="6672" width="720" height="48"/>
+  <object x="624" y="6192" width="480" height="48"/>
+  <object x="1056" y="6240" width="48" height="432"/>
+  <object x="384" y="5904" width="48" height="768"/>
+  <object x="576" y="6096" width="48" height="144"/>
+  <object x="624" y="6096" width="480" height="48"/>
+  <object x="432" y="5904" width="432" height="48"/>
+  <object x="864" y="5808" width="48" height="144"/>
+  <object x="1056" y="5616" width="48" height="480"/>
+  <object x="816" y="5520" width="48" height="144"/>
+  <object x="864" y="5616" width="192" height="48"/>
+  <object x="864" y="5520" width="240" height="48"/>
+  <object x="624" y="5520" width="48" height="336"/>
+  <object x="672" y="5808" width="192" height="48"/>
+  <object x="384" y="5520" width="240" height="48"/>
+  <object x="384" y="5136" width="48" height="384"/>
+  <object x="432" y="5136" width="240" height="48"/>
+  <object x="816" y="5136" width="288" height="48"/>
+  <object x="1056" y="5184" width="48" height="336"/>
+  <object x="624" y="4608" width="48" height="528"/>
+  <object x="816" y="4608" width="48" height="528"/>
+  <object x="432" y="4176" width="48" height="96"/>
+  <object x="480" y="4224" width="48" height="96"/>
+  <object x="528" y="4272" width="48" height="96"/>
+  <object x="576" y="4320" width="48" height="96"/>
+  <object x="864" y="4320" width="48" height="96"/>
+  <object x="912" y="4272" width="48" height="96"/>
+  <object x="960" y="4224" width="48" height="96"/>
+  <object x="1008" y="4176" width="48" height="96"/>
+  <object x="384" y="3216" width="48" height="1008"/>
+  <object x="1056" y="3216" width="48" height="1008"/>
+  <object x="432" y="3168" width="48" height="96"/>
+  <object x="480" y="3120" width="48" height="96"/>
+  <object x="528" y="3072" width="48" height="96"/>
+  <object x="576" y="3024" width="48" height="96"/>
+  <object x="624" y="2880" width="48" height="192"/>
+  <object x="816" y="2880" width="48" height="192"/>
+  <object x="864" y="3024" width="48" height="96"/>
+  <object x="912" y="3072" width="48" height="96"/>
+  <object x="960" y="3120" width="48" height="96"/>
+  <object x="1008" y="3168" width="48" height="96"/>
+  <object x="432" y="2880" width="192" height="48"/>
+  <object x="864" y="2880" width="192" height="48"/>
+  <object x="1008" y="2496" width="48" height="384"/>
+  <object x="864" y="2496" width="144" height="48"/>
+  <object x="480" y="2496" width="144" height="48"/>
+  <object x="432" y="2496" width="48" height="384"/>
+  <object x="624" y="2400" width="48" height="144"/>
+  <object x="816" y="2400" width="48" height="144"/>
+  <object x="384" y="2400" width="240" height="48"/>
+  <object x="864" y="2400" width="240" height="48"/>
+  <object x="1056" y="2016" width="48" height="384"/>
+  <object x="864" y="2016" width="192" height="48"/>
+  <object x="816" y="1920" width="48" height="144"/>
+  <object x="384" y="2016" width="48" height="384"/>
+  <object x="432" y="2016" width="240" height="48"/>
+  <object x="624" y="1728" width="48" height="288"/>
+  <object x="672" y="1728" width="192" height="48"/>
+  <object x="864" y="1632" width="48" height="144"/>
+  <object x="480" y="1632" width="384" height="48"/>
+  <object x="1056" y="1392" width="48" height="576"/>
+  <object x="864" y="1920" width="192" height="48"/>
+  <object x="720" y="1392" width="336" height="48"/>
+  <object x="672" y="1296" width="48" height="144"/>
+  <object x="720" y="1296" width="384" height="48"/>
+  <object x="480" y="1104" width="48" height="528"/>
+  <object x="528" y="1104" width="336" height="48"/>
+  <object x="864" y="960" width="48" height="192"/>
+  <object x="1056" y="768" width="48" height="528"/>
+  <object x="624" y="768" width="432" height="48"/>
+  <object x="624" y="672" width="432" height="48"/>
+  <object x="576" y="672" width="48" height="144"/>
+  <object x="384" y="960" width="480" height="48"/>
+  <object x="384" y="480" width="48" height="480"/>
+  <object x="432" y="480" width="288" height="48"/>
+  <object x="720" y="240" width="48" height="288"/>
+  <object x="768" y="240" width="288" height="48"/>
+  <object x="1008" y="288" width="48" height="384"/>
+  <object x="576" y="2640" width="336" height="48"/>
+  <object x="432" y="3312" width="48" height="48"/>
+  <object x="432" y="3408" width="96" height="48"/>
+  <object x="432" y="3504" width="48" height="48"/>
+  <object x="432" y="3600" width="96" height="48"/>
+  <object x="432" y="3696" width="48" height="48"/>
+  <object x="432" y="3792" width="96" height="48"/>
+  <object x="432" y="3888" width="48" height="48"/>
+  <object x="432" y="3984" width="96" height="48"/>
+  <object x="432" y="4080" width="48" height="48"/>
+  <object x="1008" y="3312" width="48" height="48"/>
+  <object x="960" y="3408" width="96" height="48"/>
+  <object x="1008" y="3504" width="48" height="48"/>
+  <object x="960" y="3600" width="96" height="48"/>
+  <object x="1008" y="3696" width="48" height="48"/>
+  <object x="960" y="3792" width="96" height="48"/>
+  <object x="1008" y="3888" width="48" height="48"/>
+  <object x="960" y="3984" width="96" height="48"/>
+  <object x="1008" y="4080" width="48" height="48"/>
+ </objectgroup>
+</map>

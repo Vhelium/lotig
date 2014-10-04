@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings>
+<data>
+<tutorialseen>true</tutorialseen>
+<lasttipp>1</lasttipp>
+<Music>true</Music>
+<Vibrate>true</Vibrate>
+<Aim-Help>true</Aim-Help>
+<Center-Minimap>true</Center-Minimap>
+<Sound>true</Sound>
+</data>
+</settings>

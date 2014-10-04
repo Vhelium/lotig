@@ -1,0 +1,5 @@
+daily;0;1000;5;null;killboss;1
+daily;0;1000;5;null;gold;10000
+daily;0;1000;5;null;fame;20
+daily;0;1000;5;null;killany;3
+daily;0;1000;5;null;arenarounds;2

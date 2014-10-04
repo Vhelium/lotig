@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="70" height="50" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="bottom" tilewidth="48" tileheight="48" spacing="2" margin="1">
+  <image source="../gfx/simple_tile2.png" width="200" height="150"/>
+ </tileset>
+ <tileset firstgid="13" name="jungle_tiled" tilewidth="48" tileheight="48">
+  <image source="../gfx/jungle_tiled.png" width="768" height="576"/>
+ </tileset>
+ <layer name="L1 Back" width="70" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QMQrAMAwEQTnk/29Om0Ii2ASkYopprjp2RcSidA/4MJEuuux2ecv27o/dskbafPfq/jGRLnUXbeo23R8m0qXuoo02p20y14B/AAAAAAAAAAAAwL8e51uPw7A2AAA=
+  </data>
+ </layer>
+ <layer name="L2 Normal" width="70" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAgDoDewf1tjfFNIQAIAf0w7AAAAAAAAAAAAAAAAhy0d1DScsDYAAA==
+  </data>
+ </layer>
+ <objectgroup name="Events" width="70" height="50">
+  <properties>
+   <property name="Events" value="true"/>
+  </properties>
+  <object name="Spawn" type="static" x="96" y="48" width="48" height="48"/>
+  <object name="NextLevel" type="LevelObject" x="1056" y="624" width="48" height="48">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies" width="70" height="50">
+  <properties>
+   <property name="Enemies" value="true"/>
+  </properties>
+ </objectgroup>
+ <objectgroup name="Collision" width="70" height="50">
+  <properties>
+   <property name="Collide" value="true"/>
+  </properties>
+ </objectgroup>
+</map>
