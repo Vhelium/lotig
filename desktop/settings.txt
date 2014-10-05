@@ -2,9 +2,9 @@
 <settings>
 <data>
 <tutorialseen>true</tutorialseen>
-<lasttipp>1</lasttipp>
-<Music>true</Music>
 <Vibrate>true</Vibrate>
+<Music>true</Music>
+<lasttipp>1</lasttipp>
 <Aim-Help>true</Aim-Help>
 <Center-Minimap>true</Center-Minimap>
 <Sound>true</Sound>

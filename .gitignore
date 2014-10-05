@@ -45,6 +45,7 @@ ehthumbs.db
 Thumbs.db
 
 # Game specific files
+desktop/settings.txt
 saved0.txt
 saved1.txt
 saved2.txt
