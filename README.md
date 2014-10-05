@@ -10,6 +10,7 @@ Lairs of the Insane Gods
 * Open up your terminal and type: *"cd /path/to/the/workspaceLOTIG/LairsOfTheInsaneGods"* (adjust the path to fit yours)
 * Go on Bitbucket, click on "Clone" in the top left corner and copy the link that pops up ( [example](http://i.imgur.com/BkonRVW.png) )
 * Switch back to your terminal and type: *"git clone https://theLinkYouJustCopied.git"*
+* Type in the terminal: *"git remote add origin https://theLinkYouJustCopied.git"*
 * Git should now clone the repository in the folder "*LairsOfTheInsaneGods*"
 * *comming soon..*
 
