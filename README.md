@@ -2,14 +2,9 @@
 
 Lairs of the Insane Gods
 
-### How do I get set up? ###
+### Set up Git ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Install & configure Git: [Link](https://confluence.atlassian.com/display/BITBUCKET/Set+up+Git)
 
 ### Users ###
 
