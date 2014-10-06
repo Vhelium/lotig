@@ -4,11 +4,13 @@
 ## Project overview ##
 ___
 
-### Users ###
+### Contributors ###
 ___
 
-* Timon Blattner - Lead Developer
-* vhtwink - 2nd user account of Timon Blattner
+* Timon Blattner - Lead Developer & Game Design
+* Tom Storm - Lead Artist & Level Design
+* Dean DiMarzo - Music
+* Fabian Welz - Barbarian Shouts sfx
 
 ### Folder structure ###
 ___
@@ -38,9 +40,10 @@ ___
 ### Software & Tools ###
 ___
 
-* [Git](http://git-scm.com/downloads) basic git
-* [KDiff3](http://kdiff3.sourceforge.net/) (for visual merging)
+* [Git](http://git-scm.com/downloads) Client for Git
+* [KDiff3](http://kdiff3.sourceforge.net/) For visual merging
 * LibGDX Texture packer (included in the repository under */_packer_input*)
+* [Tiled Map Editor](http://www.mapeditor.org/) Level Designer Software
 
 Optional:
 
