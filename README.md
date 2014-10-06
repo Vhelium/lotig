@@ -15,30 +15,33 @@ ___
 ### Folder structure ###
 ___
 
-* *_packer_input* - Texture Packer runnable + unpacked asset files
-* *android* - Android platform specific code
-* *ios* - iOS platform specific code
-* *desktop* - PC platform specific code (Windows/OSX/Unix)
-* *core* - Platform independent code (main part)
+* */_packer_input* - Texture Packer runnable + unpacked asset files
+* */android* - Android platform specific code
+* */ios* - iOS platform specific code
+* */desktop* - PC platform specific code (Windows/OSX/Unix)
+* */core* - Platform independent code (main part)
 
 ### Asset folders ###
+___
 
 #### Sprites without packing ####
-* Entity animations (players, monsters): /android/assets/gfx/entities
-* Tile sets: android/assets/gfx/packs
+* Entity animations (players, monsters): */android/assets/gfx/entities*
+* Tile sets: */android/assets/gfx/packs*
 
 #### Sprites with packing ####
-* Bullet assets: /_packer_input/bullets
-* Effect animations: /_packer_input/effects
-* Gui assets /_packer_input/gui
-* Item icons /_packer_input/items
-* General game assets: /_packer_input/assets
+* Bullet assets: */_packer_input/bullets*
+* Effect animations: */_packer_input/effects*
+* Gui assets: */_packer_input/gui*
+* Item icons: */_packer_input/items*
+* General game assets: */_packer_input/assets*
 
 ## Project setup ##
 ___
 
 ### Software & Tools ###
 ___
+
+Required:
 
 * [Git](http://git-scm.com/downloads) Client for Git
 * [KDiff3](http://kdiff3.sourceforge.net/) For visual merging
@@ -64,6 +67,8 @@ ___
 
 ### Update your local repository ###
 ___
+
+*Note: 'type' refers to typing a command into terminal*
 
 * Type: *"cd /path/to/the/workspaceLOTIG/LairsOfTheInsaneGods"*
 * Type: *"git pull origin master*" to update your local repository
