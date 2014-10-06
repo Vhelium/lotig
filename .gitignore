@@ -20,6 +20,11 @@ build/
 .classpath
 .project
 .settings/
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
 
 # Local configuration file (sdk path, etc)
 local.properties
