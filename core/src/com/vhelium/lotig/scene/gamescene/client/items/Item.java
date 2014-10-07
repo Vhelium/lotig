@@ -26,8 +26,8 @@ import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipInsignia;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipShield;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTome;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTrophy;
+import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBattleAxe;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBow;
-import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipClaymore;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipLongsword;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipRod;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipScepter;
@@ -101,8 +101,8 @@ public abstract class Item
 		else if(type.equals("Shoulder"))
 			return EquipShoulder.createItemFromStringFormat(st);
 		
-		else if(type.equals("Claymore"))
-			return EquipClaymore.createItemFromStringFormat(st);
+		else if(type.equals("Battle Axe") || type.equals("Claymore"))
+			return EquipBattleAxe.createItemFromStringFormat(st);
 		
 		else if(type.equals("Longsword"))
 			return EquipLongsword.createItemFromStringFormat(st);

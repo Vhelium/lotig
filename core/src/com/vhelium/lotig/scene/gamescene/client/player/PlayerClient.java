@@ -1362,7 +1362,7 @@ public class PlayerClient extends EntityClientMixin
 	{
 		if(playerClass.equalsIgnoreCase("Barbarian"))
 		{
-			inventory.useItem(Item.getItemFromStringFormat("Claymore:1:DMG:90:1:1"), false);
+			inventory.useItem(Item.getItemFromStringFormat("Battle Axe:1:DMG:90:1:1"), false);
 			inventory.useItem(Item.getItemFromStringFormat("Insignia:1:STR:5:1:1"), false);
 		}
 		else if(playerClass.equalsIgnoreCase("Dark Priest"))

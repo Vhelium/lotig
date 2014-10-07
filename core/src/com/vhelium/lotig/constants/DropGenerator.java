@@ -26,7 +26,7 @@ import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipShield;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTome;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTrophy;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBow;
-import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipClaymore;
+import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBattleAxe;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipLongsword;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipRod;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipScepter;
@@ -108,7 +108,7 @@ public abstract class DropGenerator
 			case 9:
 				return EquipBow.randomEquip(level, modifier);
 			case 10:
-				return EquipClaymore.randomEquip(level, modifier);
+				return EquipBattleAxe.randomEquip(level, modifier);
 			case 11:
 				return EquipLongsword.randomEquip(level, modifier);
 			case 12:
@@ -183,7 +183,7 @@ public abstract class DropGenerator
 			case 0:
 				return EquipBow.randomEquip(level, modifier);
 			case 1:
-				return EquipClaymore.randomEquip(level, modifier);
+				return EquipBattleAxe.randomEquip(level, modifier);
 			case 2:
 				return EquipLongsword.randomEquip(level, modifier);
 			case 3:

@@ -188,7 +188,7 @@ public class GameSubHUD_Inventory extends GameHUDMenu
 //		playerInventory.clearItems();
 //		for(int i = 0; i < 40; i++)
 //			playerInventory.addItem(EquipShoulder.randomEquip(25, 3), false, false);
-//		playerInventory.addItem(EquipClaymore.randomEquip(25, 3), false, true);
+//		playerInventory.addItem(EquipBattleAxe.randomEquip(25, 3), false, true);
 //		playerInventory.addItem(EquipLongsword.randomEquip(10, 1), false, false);
 //		playerInventory.addItem(EquipWand.randomEquip(10, 1), false, true);
 //		playerInventory.addItem(Glyph.getGlyph("Fire Trap", 2), false, false);

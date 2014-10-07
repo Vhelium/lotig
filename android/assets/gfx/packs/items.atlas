@@ -491,210 +491,189 @@ equip/Chest_common
   orig: 42, 42
   offset: 0, 0
   index: -1
-equip/Claymore_uncommon
-  rotate: false
-  xy: 265, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
-equip/Longsword_uncommon
-  rotate: false
-  xy: 265, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
 equip/Boots_rare
   rotate: false
-  xy: 309, 45
+  xy: 265, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Boots_legendary
   rotate: false
-  xy: 309, 45
+  xy: 265, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Rod_legendary
   rotate: false
-  xy: 309, 45
+  xy: 265, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Rod_rare
   rotate: false
-  xy: 309, 45
+  xy: 265, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Rod_common
   rotate: false
-  xy: 309, 45
+  xy: 265, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Chest_legendary
   rotate: false
-  xy: 309, 1
+  xy: 309, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Chest_rare
   rotate: false
-  xy: 309, 1
+  xy: 309, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Glove_uncommon
   rotate: false
-  xy: 353, 45
+  xy: 309, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Wand_rare
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Wand_legendary
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Bracer_legendary
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Bracer_common
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Wand_common
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Bracer_rare
   rotate: false
-  xy: 353, 1
+  xy: 353, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Shield_uncommon
   rotate: false
-  xy: 397, 45
+  xy: 353, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Shoulder_uncommon
   rotate: false
-  xy: 397, 1
+  xy: 397, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Pants_legendary
   rotate: false
-  xy: 441, 45
+  xy: 397, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Pants_rare
   rotate: false
-  xy: 441, 45
+  xy: 397, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Pants_common
   rotate: false
-  xy: 441, 45
+  xy: 397, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Ring_uncommon
   rotate: false
-  xy: 441, 1
+  xy: 441, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Glove_legendary
   rotate: false
-  xy: 485, 45
+  xy: 441, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Glove_common
   rotate: false
-  xy: 485, 45
+  xy: 441, 1
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 equip/Glove_rare
   rotate: false
+  xy: 441, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Battle Axe_common
+  rotate: false
   xy: 485, 45
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
-equip/Claymore_legendary
-  rotate: false
-  xy: 485, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
-equip/Claymore_rare
-  rotate: false
-  xy: 485, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
-equip/Longsword_rare
-  rotate: false
-  xy: 485, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
-equip/Longsword_legendary
-  rotate: false
-  xy: 485, 1
-  size: 42, 42
-  orig: 42, 42
-  offset: 0, 0
-  index: -1
 equip/Helmet_uncommon
+  rotate: false
+  xy: 485, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_uncommon
+  rotate: false
+  xy: 529, 45
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Battle Axe_uncommon
   rotate: false
   xy: 529, 45
   size: 42, 42
@@ -743,7 +722,28 @@ equip/Boots_uncommon
   orig: 42, 42
   offset: 0, 0
   index: -1
-equip/Claymore_common
+equip/Battle Axe_legendary
+  rotate: false
+  xy: 573, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Battle Axe_rare
+  rotate: false
+  xy: 573, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_rare
+  rotate: false
+  xy: 573, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+equip/Longsword_legendary
   rotate: false
   xy: 573, 1
   size: 42, 42

@@ -93,7 +93,6 @@ public class GameHUD_Tools extends GameHUDMenu
 			{
 				SoundManager.playSound(SoundFile.menu_ingame_selected);
 				hudCallback.toggle("connection");
-//				hudCallback.getHUD().displayReward("You got a reward!", 10000, 200, EquipClaymore.randomEquip(2, 10), EquipBoots.randomEquip(10, 10));
 			}
 		});
 		this.addActor(cmdConnection);

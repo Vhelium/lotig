@@ -18,7 +18,7 @@ import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipShield;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTome;
 import com.vhelium.lotig.scene.gamescene.client.items.offhand.EquipTrophy;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBow;
-import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipClaymore;
+import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipBattleAxe;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipLongsword;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipRod;
 import com.vhelium.lotig.scene.gamescene.client.items.weapon.EquipScepter;
@@ -43,11 +43,11 @@ public abstract class TestRangeUtility
 		
 		if(player.getPlayerClass().equalsIgnoreCase("Barbarian"))
 		{
-			player.getInventory().useItem(EquipClaymore.randomEquip(rangeNr, player.getLevel().getDifficulty()), false);
+			player.getInventory().useItem(EquipBattleAxe.randomEquip(rangeNr, player.getLevel().getDifficulty()), false);
 			player.getInventory().useItem(EquipInsignia.randomEquip(rangeNr, player.getLevel().getDifficulty()), false);
 			player.getInventory().clearItems();
-			player.getInventory().addItem(EquipClaymore.randomEquip(rangeNr, player.getLevel().getDifficulty()), true, false);
-			player.getInventory().addItem(EquipClaymore.randomEquip(rangeNr, player.getLevel().getDifficulty()), true, false);
+			player.getInventory().addItem(EquipBattleAxe.randomEquip(rangeNr, player.getLevel().getDifficulty()), true, false);
+			player.getInventory().addItem(EquipBattleAxe.randomEquip(rangeNr, player.getLevel().getDifficulty()), true, false);
 		}
 		else if(player.getPlayerClass().equalsIgnoreCase("Dark Priest"))
 		{

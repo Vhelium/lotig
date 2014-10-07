@@ -4,12 +4,12 @@ import java.util.StringTokenizer;
 import com.vhelium.lotig.scene.gamescene.client.items.Equip;
 import com.vhelium.lotig.scene.gamescene.client.items.ItemCategory;
 
-public class EquipClaymore extends EquipWeapon
+public class EquipBattleAxe extends EquipWeapon
 {
-	protected EquipClaymore()
+	protected EquipBattleAxe()
 	{
 		super();
-		NAME = "Claymore";
+		NAME = "Battle Axe";
 		featuredAttribute = "DMG";
 		playerClass = "Barbarian";
 		CATEGORY = ItemCategory.Weapon;
@@ -24,17 +24,17 @@ public class EquipClaymore extends EquipWeapon
 	
 	public static Equip randomEquip(int level, int modifier)
 	{
-		EquipClaymore claymore = new EquipClaymore();
-		claymore.randomStats(level, modifier);
-		claymore.randomDamage(level);
-		claymore.applyIcon();
+		EquipBattleAxe battleAxe = new EquipBattleAxe();
+		battleAxe.randomStats(level, modifier);
+		battleAxe.randomDamage(level);
+		battleAxe.applyIcon();
 		
-		return claymore;
+		return battleAxe;
 	}
 	
-	public static EquipClaymore createItemFromStringFormat(StringTokenizer st)
+	public static EquipBattleAxe createItemFromStringFormat(StringTokenizer st)
 	{
-		EquipClaymore res = new EquipClaymore();
+		EquipBattleAxe res = new EquipBattleAxe();
 		Equip.applyStatsFromStringFormat(st, res);
 		res.applyIcon();
 		return res;
