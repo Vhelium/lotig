@@ -98,3 +98,20 @@ ___
 * At the top of the new window click on 'Open project' which opens a dialog
 * Navigate to the *_packet_input* folder and select the file called *"lotig"* and click 'open'
 * Now press the 'Pack'em all' button and wait for the sprites to be packed into *../assets/gfx/packs*
+
+## Useful links ##
+___
+
+### Git ###
+___
+
+* [Comprehensive Git Guide](http://git-scm.com/book/en/Git-Basics)
+* [Git Reference](http://gitref.org/index.html)
+* [Resolving merge conflict from console](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
+
+### LibGDX ###
+___
+
+* [Homepage](http://libgdx.badlogicgames.com/)
+* [IDE setup](https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29)
+* [Import LibGDX Gradle Project](https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse)
