@@ -54,7 +54,7 @@ public class LevelObject_NPC extends LevelObject
 		bounds = new Rectangle(x, y, w, h);
 		TiledTextureRegion txt = GameHelper.getInstance().getGameAssetTiledTextureRegion(asset, animated ? 2 : 1, 1);
 		sprite = new AnimatedSprite(x + w / 2 - txt.getTileWidth() / 2, y + h / 2 - txt.getTileHeight() / 2, txt.getTileWidth(), txt.getTileHeight(), txt);
-		((AnimatedSprite) sprite).stopAnimation(0);
+		((AnimatedSprite) sprite).stopAnimationAt(0);
 		if(animated)
 			((AnimatedSprite) sprite).animate(animationTime);
 	}

@@ -40,7 +40,7 @@ public class LevelObject_Door extends LevelObject
 		this.state = state;
 		
 		sprite = new AnimatedSprite(x, y, w, h, GameHelper.getInstance().getGameAssetTiledTextureRegion(asset, 2, 1));
-		((AnimatedSprite) sprite).stopAnimation(state);
+		((AnimatedSprite) sprite).stopAnimationAt(state);
 		bounds = new Rectangle(x, y, w, h);
 		
 		this.collision = state == 0;
@@ -69,7 +69,7 @@ public class LevelObject_Door extends LevelObject
 	{
 		if(sprite != null)
 		{
-			((AnimatedSprite) sprite).stopAnimation(state);
+			((AnimatedSprite) sprite).stopAnimationAt(state);
 			SoundManager.playSound(SoundFile.gate_open);
 		}
 	}

@@ -86,7 +86,7 @@ public class LevelObject_Explosive extends LevelObject
 		this.hp = hp;
 		
 		sprite = new AnimatedSprite(x, y, w, h, GameHelper.getInstance().getGameAssetTiledTextureRegion(asset, animated ? 2 : 1, 1));
-		((AnimatedSprite) sprite).stopAnimation(0);
+		((AnimatedSprite) sprite).stopAnimationAt(0);
 		if(animated)
 			((AnimatedSprite) sprite).animate(animationTime);
 		bounds = new Rectangle(x, y, w, h);

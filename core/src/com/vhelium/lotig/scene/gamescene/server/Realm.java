@@ -721,7 +721,7 @@ public class Realm
 				{
 					DataPacket dpPlayer = new DataPacket();
 					dpPlayer.setInt(MessageType.MSG_PLAYER_YOU_GOT_HIT);
-					dpPlayer.setInt(b.getOwner().Nr);
+					dpPlayer.setInt(b.getOwner() != null ? b.getOwner().Nr : -1);
 					sendToPlayer(targetEntityId, dpPlayer);
 				}
 			}

@@ -96,15 +96,17 @@ public class LevelObject_Shrine extends LevelObject
 		
 	}
 	
+	private final int[] frames = new int[] { 0, 1 };
+	
 	@Override
 	public void stateChangedClient(int state)
 	{
 		if(sprite != null)
 		{
 			if(state == 0)
-				((AnimatedSprite) sprite).stopAnimation(2);
+				((AnimatedSprite) sprite).stopAnimationAt(2);
 			else
-				((AnimatedSprite) sprite).animate(222, 0, 1, true);
+				((AnimatedSprite) sprite).animate(222, frames, true);
 		}
 	}
 	

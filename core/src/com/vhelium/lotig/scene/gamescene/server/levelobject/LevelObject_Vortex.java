@@ -63,7 +63,7 @@ public class LevelObject_Vortex extends LevelObject
 		
 		sprite = new AnimatedSprite(x, y, w, h, GameHelper.getInstance().getGameAssetTiledTextureRegion(asset, 1, 1));
 		sprite.setOrigin(w / 2, h / 2);
-		((AnimatedSprite) sprite).stopAnimation(0);
+		((AnimatedSprite) sprite).stopAnimationAt(0);
 		if(rotation)
 			sprite.addAction(Actions.forever(Actions.rotateBy(360, 2f)));
 		bounds = new Rectangle(x, y, w, h);

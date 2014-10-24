@@ -30,7 +30,7 @@ public class LevelObject_Lever extends LevelObject
 		asset = "Lever";
 		
 		sprite = new AnimatedSprite(x, y, w, h, GameHelper.getInstance().getGameAssetTiledTextureRegion(asset, 2, 1));
-		((AnimatedSprite) sprite).stopAnimation(0);
+		((AnimatedSprite) sprite).stopAnimationAt(0);
 		bounds = new Rectangle(x, y, w, h);
 		
 		this.state = state;
@@ -64,7 +64,7 @@ public class LevelObject_Lever extends LevelObject
 	{
 		if(sprite != null)
 		{
-			((AnimatedSprite) sprite).stopAnimation(state);
+			((AnimatedSprite) sprite).stopAnimationAt(state);
 		}
 	}
 	

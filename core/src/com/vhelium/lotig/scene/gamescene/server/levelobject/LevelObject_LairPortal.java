@@ -71,15 +71,18 @@ public class LevelObject_LairPortal extends LevelObject
 		
 	}
 	
+	private final int[] frames1 = new int[] { 0, 1, 2 };
+	private final int[] frames2 = new int[] { 3, 4, 5 };
+	
 	@Override
 	public void stateChangedClient(int state)
 	{
 		if(sprite != null)
 		{
 			if(state == 1)
-				((AnimatedSprite) sprite).animate(200, 0, 2, true);
+				((AnimatedSprite) sprite).animate(200, frames1, true);
 			else
-				((AnimatedSprite) sprite).animate(200, 3, 5, true);
+				((AnimatedSprite) sprite).animate(200, frames2, true);
 		}
 	}
 	

@@ -41,6 +41,7 @@ public abstract class EntityClientMixin implements EntityMixin
 		this.asset = asset;
 		
 		sprite = new AnimatedSprite(0, 0, GameHelper.getInstance().getEntityAssetCopy(asset));
+		sprite.debug = true;
 		setWidth(width);
 		setHeight(height);
 		conditionEffects = new HashMap<String, Effect>();
@@ -87,6 +88,16 @@ public abstract class EntityClientMixin implements EntityMixin
 		}
 	}
 	
+	private final int[] framesShootBot = new int[] { 13, 14, 10 };
+	private final int[] framesShootLeft = new int[] { 8, 9, 5 };
+	private final int[] framesShootTop = new int[] { 3, 4, 0 };
+	private final int[] framesShootRight = new int[] { 8, 9, 5 };
+	
+	private final int[] framesWalkBot = new int[] { 11, 12 };
+	private final int[] framesWalkLeft = new int[] { 6, 5, 7 };
+	private final int[] framesWalkTop = new int[] { 1, 2 };
+	private final int[] framesWalkRight = new int[] { 6, 5, 7 };
+	
 	private AnimationStatus currentAnimation;
 	
 	private void playAnimation(AnimationStatus animation)
@@ -99,53 +110,53 @@ public abstract class EntityClientMixin implements EntityMixin
 			{
 				case IDLE_BOT:
 					sprite.setFlippedHorizontal(false);
-					sprite.stopAnimation(10);
+					sprite.stopAnimationAt(10);
 					break;
 				case IDLE_LEFT:
 					sprite.setFlippedHorizontal(false);
-					sprite.stopAnimation(5);
+					sprite.stopAnimationAt(5);
 					break;
 				case IDLE_TOP:
 					sprite.setFlippedHorizontal(false);
-					sprite.stopAnimation(0);
+					sprite.stopAnimationAt(0);
 					break;
 				case IDLE_RIGHT:
 					sprite.setFlippedHorizontal(true);
-					sprite.stopAnimation(5);
+					sprite.stopAnimationAt(5);
 					break;
 				
 				case SHOOTING_BOT:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(shootSpeed / 2, 13, 14, false);
+					sprite.animate(shootSpeed / 3f, framesShootBot, false);
 					break;
 				case SHOOTING_LEFT:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(shootSpeed / 2, 8, 9, false);
+					sprite.animate(shootSpeed / 3f, framesShootLeft, false);
 					break;
 				case SHOOTING_TOP:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(shootSpeed / 2, 3, 4, false);
+					sprite.animate(shootSpeed / 3f, framesShootTop, false);
 					break;
 				case SHOOTING_RIGHT:
 					sprite.setFlippedHorizontal(true);
-					sprite.animate(shootSpeed / 2, 8, 9, false);
+					sprite.animate(shootSpeed / 3f, framesShootRight, false);
 					break;
 				
 				case WALKING_BOT:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(200, 11, 12, true);
+					sprite.animate(200, framesWalkBot, true);
 					break;
 				case WALKING_LEFT:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(200, 6, 7, true);//133
+					sprite.animate(133, framesWalkLeft, true);//133
 					break;
 				case WALKING_TOP:
 					sprite.setFlippedHorizontal(false);
-					sprite.animate(200, 1, 2, true);
+					sprite.animate(200, framesWalkTop, true);
 					break;
 				case WALKING_RIGHT:
 					sprite.setFlippedHorizontal(true);
-					sprite.animate(200, 6, 7, true);//133
+					sprite.animate(133, framesWalkRight, true);//133
 					break;
 				case NONE:
 					break;

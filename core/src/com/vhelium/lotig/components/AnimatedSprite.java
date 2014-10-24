@@ -3,18 +3,20 @@ package com.vhelium.lotig.components;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Group;
+import com.vhelium.lotig.constants.Log;
 
 public class AnimatedSprite extends Group
 {
+	public boolean debug = false;
 	private TiledTextureRegion tiledTextureRegion;
 	private boolean animationRunning;
-	private int currentTileIndex;
+	private int currentAnimationIndex;
 	private float animationProgress;
 	private float frameTime;
 	private boolean isFlipped = false;
 	private boolean loop = false;
 	private IAnimationListener listener;
-	private int frameStart, frameEnd;
+	private int[] frames;
 	
 	public AnimatedSprite(float x, float y, TiledTextureRegion tiledTextureRegion)
 	{
@@ -25,6 +27,7 @@ public class AnimatedSprite extends Group
 	{
 		this.tiledTextureRegion = tiledTextureRegion;
 		this.setBounds(x, y, width, height);
+		currentAnimationIndex = 0;
 		updateFlip();
 	}
 	
@@ -38,18 +41,18 @@ public class AnimatedSprite extends Group
 			if(animationProgress >= frameTime)
 			{
 				animationProgress -= frameTime;
-				if(currentTileIndex >= frameEnd)
+				if(currentAnimationIndex >= frames.length - 1)
 				{
 					if(!loop)
 					{
-						currentTileIndex = frameEnd;
+						currentAnimationIndex = frames.length - 1;
 						onAnimationFinished();
 					}
 					else
-						currentTileIndex = frameStart;
+						currentAnimationIndex = 0;
 				}
 				else
-					currentTileIndex++;
+					currentAnimationIndex++;
 			}
 		}
 		super.act(delta);
@@ -59,7 +62,9 @@ public class AnimatedSprite extends Group
 	public void draw(Batch batch, float parentAlpha)
 	{
 		batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * parentAlpha);
-		batch.draw(tiledTextureRegion.getTextureRegion(currentTileIndex), this.getX(), this.getY(), this.getOriginX(), this.getOriginY(), this.getWidth(), this.getHeight(), this.getScaleX(), this.getScaleY(), this.getRotation());
+		if(debug)
+			Log.e("animatedsprite", "i: " + currentAnimationIndex + ",  frame: " + frames[currentAnimationIndex] + " --- progress: " + animationProgress);
+		batch.draw(tiledTextureRegion.getTextureRegion(frames[currentAnimationIndex]), this.getX(), this.getY(), this.getOriginX(), this.getOriginY(), this.getWidth(), this.getHeight(), this.getScaleX(), this.getScaleY(), this.getRotation());
 		super.draw(batch, parentAlpha);
 	}
 	
@@ -73,32 +78,33 @@ public class AnimatedSprite extends Group
 		animate(frameTime, loop, null);
 	}
 	
-	public void animate(float frameTime, int startFrame, int endFrame, boolean loop)
+	public void animate(float frameTime, int[] frames, boolean loop)
 	{
-		animate(frameTime, startFrame, endFrame, loop, null);
+		animate(frameTime, frames, loop, null);
 	}
 	
 	public void animate(float frameTime, boolean loop, IAnimationListener listener)
 	{
-		animate(frameTime, 0, tiledTextureRegion.getTileCount() - 1, loop, listener);
+		animate(frameTime, getFrameDefaults(), loop, listener);
 	}
 	
-	public void animate(float frameTime, int startFrame, int endFrame, boolean loop, IAnimationListener listener)
+	public void animate(float frameTime, int[] frames, boolean loop, IAnimationListener listener)
 	{
 		animationRunning = true;
 		animationProgress = 0;
 		this.frameTime = frameTime;
-		this.frameStart = startFrame;
-		this.currentTileIndex = startFrame;
-		this.frameEnd = endFrame;
+		this.frames = frames;
+		this.currentAnimationIndex = 0;
 		this.loop = loop;
 		this.listener = listener;
 	}
 	
-	public void stopAnimation(int frameIndex)
+	public void stopAnimationAt(int frameIndex)
 	{
 		animationRunning = false;
-		currentTileIndex = frameIndex;
+		currentAnimationIndex = 0;
+		animationProgress = 0;
+		frames = new int[] { frameIndex };
 	}
 	
 	private void onAnimationFinished()
@@ -134,5 +140,18 @@ public class AnimatedSprite extends Group
 			for(TextureRegion reg : tiledTextureRegion.getRegions())
 				reg.flip(true, false);
 		}
+	}
+	
+	private int[] frameDefaults;
+	
+	private int[] getFrameDefaults()
+	{
+		if(frameDefaults == null)
+		{
+			frameDefaults = new int[tiledTextureRegion.getTileCount()];
+			for(int i = 0; i < tiledTextureRegion.getTileCount(); i++)
+				frameDefaults[i] = i;
+		}
+		return frameDefaults;
 	}
 }

@@ -87,15 +87,18 @@ public class LevelObject_NextLevel extends LevelObject
 			}
 	}
 	
+	private final int[] frames1 = new int[] { 0, 1, 2 };
+	private final int[] frames2 = new int[] { 3, 4, 5 };
+	
 	@Override
 	public void stateChangedClient(int state)
 	{
 		if(sprite != null)
 		{
 			if(state == 0)
-				((AnimatedSprite) sprite).animate(100, 0, 2, true);
+				((AnimatedSprite) sprite).animate(100, frames1, true);
 			else
-				((AnimatedSprite) sprite).animate(100, 3, 5, true);
+				((AnimatedSprite) sprite).animate(100, frames2, true);
 		}
 	}
 	
